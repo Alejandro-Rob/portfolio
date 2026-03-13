@@ -11,7 +11,7 @@
     "hero": {
         "saludo": "¡Hola! soy",
         "rol": "Desarrollador Full Stack",
-        "descripcion": "Desarrollo web full stack con experiencia en Angular y Spring Boot, y proyectos en videojuegos y RV.",
+        "descripcion": "Desarrollo web full stack con experiencia en Angular con Spring Boot y en proyectos de videojuegos y RV.",
         "btnCv": "Descargar CV",
         "btnContacto": "Contacto"
     },
@@ -108,6 +108,8 @@
     },
     "contacto": {
         "titulo": "Contacto",
+        "telefono": "Teléfono",
+        "email": "Email",
         "subtitulo": "¿Tienes alguna propuesta o pregunta? ¡Contáctame!",
         "ubicacion": "Murcia, España"
     }

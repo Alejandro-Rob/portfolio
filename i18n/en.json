@@ -108,6 +108,8 @@
     },
     "contacto": {
         "titulo": "Contact",
+        "telefono": "Phone",
+        "email": "Email",
         "subtitulo": "Have a proposal or question? Contact me!",
         "ubicacion": "Murcia, Spain"
     }
