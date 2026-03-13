@@ -1,0 +1,38 @@
+<div class="experiencia">
+    <div class="contenido">
+        <h2 class="titulo">Experiencia</h2>
+
+        <!-- Línea de tiempo vertical -->
+        <div class="timeline">
+            <div class="trabajo" *ngFor="let trabajo of trabajos">
+
+                <!-- Punto en la línea -->
+                <div class="punto"></div>
+
+                <!-- Tarjeta de experiencia -->
+                <div class="tarjeta">
+                    <div class="tarjeta-cabecera">
+                        <div>
+                            <h3 class="puesto">{{ trabajo.puesto }}</h3>
+                            <p class="empresa">{{ trabajo.empresa }}</p>
+                        </div>
+                        <span class="periodo">{{ trabajo.periodo }}</span>
+                    </div>
+
+                    <!-- Lista de tareas -->
+                    <ul class="descripcion">
+                        <li *ngFor="let item of trabajo.descripcion">{{ item }}</li>
+                    </ul>
+
+                    <!-- Iconos de tecnologías (solo si hay alguna) -->
+                    <div class="tecnologias" *ngIf="trabajo.tecnologias.length > 0">
+                        <i *ngFor="let icono of trabajo.tecnologias"
+                            [class]="icono + ' colored'"
+                            class="tech-icono">
+                        </i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

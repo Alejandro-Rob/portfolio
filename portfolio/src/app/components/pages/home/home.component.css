@@ -1,0 +1,64 @@
+/* Sección hero: ocupa toda la pantalla menos el navbar */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 64px); /* 64px es la altura aproximada del navbar */
+    background-color: #13131f;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero-contenido {
+    max-width: 700px;
+}
+
+.hero-titulo {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* El nombre resaltado en color */
+.nombre {
+    color: #89b4fa;
+}
+
+.hero-subtitulo {
+    font-size: 1.2rem;
+    color: #aaa;
+    margin-bottom: 2rem;
+}
+
+/* Contenedor de los dos botones */
+.hero-botones {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap; /* En móvil se apilan */
+}
+
+/* Estilos base de los botones */
+.btn {
+    padding: 0.75rem 1.75rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+/* Botón principal: fondo de color */
+.btn-primario {
+    background-color: #89b4fa;
+    color: #13131f;
+}
+
+/* Botón secundario: solo borde */
+.btn-secundario {
+    border: 2px solid #89b4fa;
+    color: #89b4fa;
+}

@@ -1,0 +1,17 @@
+<nav class="navbar">
+    <div class="navbar-logo">Mi Portfolio</div>
+
+    <!-- Botón hamburguesa (solo visible en móvil) -->
+    <button class="hamburger" (click)="toggleMenu()">☰</button>
+
+    <!-- Enlaces que hacen scroll a cada sección -->
+    <ul class="navbar-links" [class.abierto]="menuAbierto">
+        <li><button (click)="scrollTo('inicio')">Inicio</button></li>
+        <li><button (click)="scrollTo('sobre-mi')">Sobre mí</button></li>
+        <li><button (click)="scrollTo('tecnologias')">Tecnologías</button></li>
+        <li><button (click)="scrollTo('experiencia')">Experiencia</button></li>
+        <li><button (click)="scrollTo('estudios')">Estudios</button></li>
+        <li><button (click)="scrollTo('proyectos')">Proyectos</button></li>
+        <li><button (click)="scrollTo('contacto')">Contacto</button></li>
+    </ul>
+</nav>

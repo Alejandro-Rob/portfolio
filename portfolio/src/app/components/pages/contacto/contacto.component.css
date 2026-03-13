@@ -1,0 +1,205 @@
+.contacto {
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.contenido {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    color: #a8c0ff;
+    text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: -1.5rem;
+}
+
+/* Mensaje de confirmación */
+.confirmacion {
+    background-color: rgba(168, 192, 255, 0.15);
+    border: 1px solid #a8c0ff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    color: #a8c0ff;
+    font-size: 1.1rem;
+}
+
+/* Formulario */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.campo label {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.campo input,
+.campo textarea {
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(168, 192, 255, 0.3);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+    resize: vertical; /* Solo redimensionable en vertical */
+}
+
+.campo input:focus,
+.campo textarea:focus {
+    border-color: #a8c0ff; /* Resalta el campo activo */
+}
+
+/* Placeholder en color suave */
+.campo input::placeholder,
+.campo textarea::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-enviar {
+    background-color: #a8c0ff;
+    color: #1a2668;
+    border: none;
+    border-radius: 8px;
+    padding: 0.85rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.btn-enviar:hover {
+    opacity: 0.85;
+}
+
+/* Enlaces de redes sociales */
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.red {
+    color: #a8c0ff;
+    text-decoration: none;
+    font-size: 0.95rem;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.red:hover {
+    border-bottom-color: #a8c0ff;
+}
+
+.contacto {
+    padding: 6rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.contenido {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    color: #a8c0ff;
+    text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: -1.5rem;
+}
+
+/* Contenedor de tarjetas */
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Cada tarjeta de contacto */
+.tarjeta {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(168, 192, 255, 0.2);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.tarjeta:hover {
+    background-color: rgba(168, 192, 255, 0.12);
+    transform: translateX(4px); /* Se desplaza ligeramente a la derecha */
+}
+
+/* La tarjeta de ubicación no es clicable */
+.no-link {
+    cursor: default;
+}
+
+.no-link:hover {
+    transform: none;
+    background-color: rgba(255, 255, 255, 0.07);
+}
+
+.icono {
+    font-size: 1.5rem;
+    color: #a8c0ff;
+    width: 2rem;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.etiqueta {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.valor {
+    font-size: 1rem;
+    color: white;
+}

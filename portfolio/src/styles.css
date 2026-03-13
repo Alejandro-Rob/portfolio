@@ -1,0 +1,23 @@
+/* Compensa la altura del navbar fijo (64px aprox) */
+main {
+    padding-top: 64px;
+}
+
+body {
+    font-family: 'Comfortaa', 'Montserrat', 'Calibri', Arial, sans-serif;
+    background: linear-gradient(180deg, 
+        #0f1a4e 0%,      /* Azul muy oscuro arriba */
+        #1a2668 20%,     /* Azul oscuro */
+        #2c3e8c 50%,     /* Azul medio */
+        #1a2668 80%,     /* Vuelve a azul oscuro */
+        #0f1a4e 100%     /* Azul muy oscuro abajo */
+    ) !important;
+    background-attachment: fixed; /* El gradiente no se mueve al hacer scroll */
+    min-height: 100vh;
+}
+
+/* Evita que cualquier elemento se salga del ancho de la pantalla */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}

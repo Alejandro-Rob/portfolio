@@ -1,0 +1,67 @@
+.tecnologias {
+    padding: 5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.contenido {
+    max-width: 900px;
+    width: 100%;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    color: #a8c0ff;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.grupo {
+    margin-bottom: 2.5rem;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Grid de iconos responsive */
+.grid-iconos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+/* Cada icono con su nombre debajo */
+.icono-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: 80px;
+}
+
+.icono-item i {
+    font-size: 3rem;
+}
+
+.icono-item span {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+/* Imágenes propias con el mismo tamaño que los iconos devicon */
+.icono-imagen {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+}
