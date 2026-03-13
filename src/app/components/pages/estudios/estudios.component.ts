@@ -22,19 +22,13 @@ interface Estudio {
 export class EstudiosComponent {
     estudios: Estudio[] = [
         {
-            titulo: 'estudios.daw.titulo',
-            centro: 'IES Ribera de los Molinos',
-            periodo: 'estudios.daw.periodo',
-            descripcion: 'estudios.daw.descripcion',
+            titulo: 'estudios.videojuegos.titulo',
+            centro: 'IES Ingeniero de la Cierva',
+            periodo: 'estudios.videojuegos.periodo',
+            descripcion: 'estudios.videojuegos.descripcion',
             tecnologias: [
-                TECNOLOGIAS.HTML_CSS,
-                TECNOLOGIAS.JAVASCRIPT,
-                TECNOLOGIAS.BOOTSTRAP,
-                TECNOLOGIAS.ANGULAR,
-                TECNOLOGIAS.JAVA,
-                TECNOLOGIAS.PHP,
-                TECNOLOGIAS.LARAVEL,
-                TECNOLOGIAS.SQL
+                TECNOLOGIAS.UNITY,
+                TECNOLOGIAS.CSHARP
             ]
         },
         {
@@ -48,13 +42,19 @@ export class EstudiosComponent {
             ]
         },
         {
-            titulo: 'estudios.videojuegos.titulo',
-            centro: 'IES Ingeniero de la Cierva',
-            periodo: 'estudios.videojuegos.periodo',
-            descripcion: 'estudios.videojuegos.descripcion',
+            titulo: 'estudios.daw.titulo',
+            centro: 'IES Ribera de los Molinos',
+            periodo: 'estudios.daw.periodo',
+            descripcion: 'estudios.daw.descripcion',
             tecnologias: [
-                TECNOLOGIAS.UNITY,
-                TECNOLOGIAS.CSHARP
+                TECNOLOGIAS.HTML_CSS,
+                TECNOLOGIAS.JAVASCRIPT,
+                TECNOLOGIAS.BOOTSTRAP,
+                TECNOLOGIAS.ANGULAR,
+                TECNOLOGIAS.JAVA,
+                TECNOLOGIAS.PHP,
+                TECNOLOGIAS.LARAVEL,
+                TECNOLOGIAS.SQL
             ]
         }
     ];
