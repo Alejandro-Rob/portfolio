@@ -1,7 +1,7 @@
 <div class="contacto">
     <div class="contenido">
         <h2 class="titulo">Contacto</h2>
-        <p class="subtitulo">¿Tienes alguna propuesta o pregunta? ¡Contáctame!</p>
+        <p class="subtitulo">{{ 'contacto.subtitulo' | translate }}</p>
 
         <div class="tarjetas">
 
@@ -24,19 +24,18 @@
             <a href="https://www.linkedin.com/in/alejandro-r-68abb4239/" target="_blank" class="tarjeta">
                 <i class="fa-brands fa-linkedin icono"></i>
                 <div class="info">
-                    <span class="etiqueta">{{ 'contacto.linkedin' | translate }}</span>
-                    <span class="valor">/in/Alejandro-r</span>
+                    <span class="etiqueta">LinkedIn</span>
+                    <span class="valor">Alejandro-r</span>
                 </div>
             </a>
 
             <div class="tarjeta no-link">
                 <i class="fa-solid fa-location-dot icono"></i>
                 <div class="info">
-                    <span class="etiqueta">{{ 'contacto.ubicacionLabel' | translate }}</span>
+                    <span class="etiqueta">{{ 'contacto.ubicacion' | translate }}</span>
                     <span class="valor">{{ 'contacto.ubicacion' | translate }}</span>
                 </div>
             </div>
-
         </div>
     </div>
 </div>
