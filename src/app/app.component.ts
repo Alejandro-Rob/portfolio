@@ -7,6 +7,8 @@ import { ContactoComponent } from './components/pages/contacto/contacto.componen
 import { HeroComponent } from './components/pages/hero/hero.component';
 import { TecnologiasComponent } from './components/pages/tecnologias/tecnologias.component';
 import { EstudiosComponent } from './components/pages/estudios/estudios.component';
+import { MobilePreviewComponent } from './components/shared/mobile-preview/mobile-preview.component';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-root',
@@ -19,10 +21,11 @@ import { EstudiosComponent } from './components/pages/estudios/estudios.componen
         HeroComponent,
         EstudiosComponent,
         TecnologiasComponent,
-        ContactoComponent
+        ContactoComponent,
+        MobilePreviewComponent
     ],
     templateUrl: './app.component.html',
     styleUrl: './app.component.css'
 })
 
-export class AppComponent {}
+export class AppComponent { }

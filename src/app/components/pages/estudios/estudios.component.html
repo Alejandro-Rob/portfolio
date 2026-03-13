@@ -1,23 +1,23 @@
 <div class="estudios">
     <div class="contenido">
-        <h2 class="titulo">Estudios</h2>
-
+        <h2 class="titulo">{{ 'estudios.titulo' | translate }}</h2>
+        
         <div class="timeline">
             <div class="estudio" *ngFor="let estudio of estudios">
                 <div class="punto"></div>
                 <div class="tarjeta">
                     <div class="tarjeta-cabecera">
                         <div>
-                            <h3 class="estudio-titulo">{{ estudio.titulo }}</h3>
+                            <h3 class="estudio-titulo">{{ estudio.titulo | translate }}</h3>
                             <p class="centro">{{ estudio.centro }}</p>
                         </div>
-                        <span class="periodo">{{ estudio.periodo }}</span>
                     </div>
-                    <p class="descripcion">{{ estudio.descripcion }}</p>
+                    <span class="periodo">{{ estudio.periodo | translate }}</span>
+                    <p class="descripcion">{{ estudio.descripcion | translate }}</p>
                     
                     <!-- Iconos de tecnologías (solo si hay alguna) -->
                     <div class="tecnologias" *ngIf="estudio.tecnologias.length > 0">
-                        <i *ngFor="let icono of estudio.tecnologias"
+                        <i *ngFor="let icono of estudio.tecnologias" 
                             [class]="icono + ' colored'"
                             class="tech-icono">
                         </i>

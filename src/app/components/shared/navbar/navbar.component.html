@@ -1,17 +1,22 @@
 <nav class="navbar">
-    <div class="navbar-logo">Mi Portfolio</div>
+    <div class="navbar-logo">Portfolio Alejandro</div>
 
-    <!-- Botón hamburguesa (solo visible en móvil) -->
     <button class="hamburger" (click)="toggleMenu()">☰</button>
 
-    <!-- Enlaces que hacen scroll a cada sección -->
     <ul class="navbar-links" [class.abierto]="menuAbierto">
-        <li><button (click)="scrollTo('inicio')">Inicio</button></li>
-        <li><button (click)="scrollTo('sobre-mi')">Sobre mí</button></li>
-        <li><button (click)="scrollTo('tecnologias')">Tecnologías</button></li>
-        <li><button (click)="scrollTo('experiencia')">Experiencia</button></li>
-        <li><button (click)="scrollTo('estudios')">Estudios</button></li>
-        <li><button (click)="scrollTo('proyectos')">Proyectos</button></li>
-        <li><button (click)="scrollTo('contacto')">Contacto</button></li>
+        <li><button (click)="scrollTo('inicio')">{{ 'navbar.inicio' | translate }}</button></li>
+        <li><button (click)="scrollTo('sobre-mi')">{{ 'navbar.sobreMi' | translate }}</button></li>
+        <li><button (click)="scrollTo('tecnologias')">{{ 'navbar.tecnologias' | translate }}</button></li>
+        <li><button (click)="scrollTo('experiencia')">{{ 'navbar.experiencia' | translate }}</button></li>
+        <li><button (click)="scrollTo('estudios')">{{ 'navbar.estudios' | translate }}</button></li>
+        <li><button (click)="scrollTo('proyectos')">{{ 'navbar.proyectos' | translate }}</button></li>
+        <li><button (click)="scrollTo('contacto')">{{ 'navbar.contacto' | translate }}</button></li>
+
+        <!-- Botón de cambio de idioma -->
+        <li>
+            <button class="btn-idioma" (click)="cambiarIdioma()">
+                {{ idiomaActual === 'es' ? '🇬🇧 EN' : '🇪🇸 ES' }}
+            </button>
+        </li>
     </ul>
 </nav>

@@ -1,0 +1,72 @@
+{
+    "navbar": {
+        "inicio": "Home",
+        "sobreMi": "About me",
+        "tecnologias": "Technologies",
+        "experiencia": "Experience",
+        "estudios": "Education",
+        "proyectos": "Projects",
+        "contacto": "Contact"
+    },
+    "hero": {
+        "rol": "Full Stack Developer",
+        "descripcion": "Full stack web development with experience in Angular and Spring Boot, and projects in game development and VR.",
+        "btnCv": "Download CV",
+        "btnContacto": "Contact"
+    },
+    "sobreMi": {
+        "titulo": "About me",
+        "p1": "I'm <strong>Alejandro</strong>, a web developer with experience in Angular (TS) and Spring Boot (Java). I also work in game development with Unity (C#), which gives me a different perspective when thinking about user experience and interfaces.",
+        "p2": "Games and VR are not just a hobby, they are real projects that complement my web profile and give me a broader vision of how people interact with technology."
+    },
+    "tecnologias": {
+        "titulo": "Technologies",
+        "domino": "Previous experience",
+        "herramientas": "Tools and environments",
+        "aprendiendo": "Learning"
+    },
+    "experiencia": {
+        "titulo": "Experience"
+    },
+    "estudios": {
+        "titulo": "Education",
+        "daw": {
+            "titulo": "Higher Degree in Web Application Development",
+            "centro": "IES Ribera de los Molinos",
+            "fecha" : "2021 September - 2023 June",
+            "descripcion": "Training in full stack web development, relational databases and application deployment."
+        },
+        "videojuegos": {
+            "titulo": "Specialization Course in Video Game and Virtual Reality Development",
+            "centro": "IES Ingeniero de la Cierva",
+            "fecha" : "2025 September - 2026 June",
+            "descripcion": "Training in video game development with Unity and C#, covering mechanics programming, interactive interface design and scene management."
+        }
+    },
+    "proyectos": {
+        "titulo": "Projects",
+        "btnGithub": "GitHub",
+        "btnDemo": "Video Demo",
+        "hoppr": {
+            "nombre": "Hoppr",
+            "descripcion": "Home task management app for expenses, recipes and shopping lists, installed on a Raspberry PI connected to Github"
+        },
+        "museo": {
+            "nombre": "VR Museum",
+            "descripcion": "VR simulation of a video game museum with interactive information"
+        },
+        "galeria": {
+            "nombre": "VR Shooting gallery",
+            "descripcion": "Shooting gallery developed in VR"
+        },
+        "plataformas": {
+            "nombre": "2D Platform",
+            "descripcion": "First 2D video game scene made in Unity"
+        }
+    },
+    "contacto": {
+        "titulo": "Contact",
+        "subtitulo": "Have a proposal or question? Contact me!",
+        "ubicacion": "Murcia, Spain"
+    }
+}

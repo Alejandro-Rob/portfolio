@@ -1,0 +1,24 @@
+<!-- Botón fijo en esquina inferior derecha -->
+<button class="btn-mobile" (click)="abrir()">
+    📱 Ver en móvil
+</button>
+
+<!-- Modal con la simulación -->
+<div class="overlay" *ngIf="visible" (click)="cerrar()">
+    <div class="modal" (click)="$event.stopPropagation()">
+
+        <!-- Botón cerrar -->
+        <button class="btn-cerrar" (click)="cerrar()">✕</button>
+
+        <!-- Carcasa del móvil -->
+        <div class="movil">
+            <div class="movil-camara"></div>
+            <div class="movil-pantalla">
+                <!-- Carga la web dentro del móvil -->
+                <iframe [src]="url" frameborder="0"></iframe>
+            </div>
+            <div class="movil-boton"></div>
+        </div>
+
+    </div>
+</div>

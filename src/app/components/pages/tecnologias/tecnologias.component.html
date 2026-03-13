@@ -1,22 +1,11 @@
 <div class="tecnologias">
     <div class="contenido">
-        <h2 class="titulo">Tecnologías</h2>
+        <h2 class="titulo">{{ 'tecnologias.titulo' | translate }}</h2>
 
         <div class="grupo">
-            <h3 class="subtitulo">Experiencia previa</h3>
+            <h3 class="subtitulo">{{ 'tecnologias.domino' | translate }}</h3>
             <div class="grid-iconos">
                 <div class="icono-item" *ngFor="let tech of domino">
-                    <i [class]="tech.icono + ' colored'"></i>
-                    <span>{{ tech.nombre }}</span>
-                </div>
-            </div>
-        </div>
-        
-        <div class="grupo">
-            <h3 class="subtitulo">Herramientas y entornos</h3>
-            <div class="grid-iconos">
-                <div class="icono-item" *ngFor="let tech of herramientas">
-                    <!-- Si tiene icono devicon lo usa, si no usa la imagen propia -->
                     <i *ngIf="tech.icono" [class]="tech.icono + ' colored'"></i>
                     <img *ngIf="tech.imagen" [src]="tech.imagen" [alt]="tech.nombre" class="icono-imagen" />
                     <span>{{ tech.nombre }}</span>
@@ -25,10 +14,22 @@
         </div>
 
         <div class="grupo">
-            <h3 class="subtitulo">Aprendiendo</h3>
+            <h3 class="subtitulo">{{ 'tecnologias.herramientas' | translate }}</h3>
+            <div class="grid-iconos">
+                <div class="icono-item" *ngFor="let tech of herramientas">
+                    <i *ngIf="tech.icono" [class]="tech.icono + ' colored'"></i>
+                    <img *ngIf="tech.imagen" [src]="tech.imagen" [alt]="tech.nombre" class="icono-imagen" />
+                    <span>{{ tech.nombre }}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="grupo">
+            <h3 class="subtitulo">{{ 'tecnologias.aprendiendo' | translate }}</h3>
             <div class="grid-iconos">
                 <div class="icono-item" *ngFor="let tech of aprendiendo">
-                    <i [class]="tech.icono + ' colored'"></i>
+                    <i *ngIf="tech.icono" [class]="tech.icono + ' colored'"></i>
+                    <img *ngIf="tech.imagen" [src]="tech.imagen" [alt]="tech.nombre" class="icono-imagen" />
                     <span>{{ tech.nombre }}</span>
                 </div>
             </div>

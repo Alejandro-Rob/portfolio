@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TECNOLOGIAS } from '../../../constants/tecnolgias.constants'
+import { TranslateModule } from '@ngx-translate/core';
 
 interface Estudio {
     titulo: string;
@@ -13,17 +14,18 @@ interface Estudio {
 @Component({
     selector: 'app-estudios',
     standalone: true,
-    imports: [CommonModule],
+    imports: [CommonModule, TranslateModule],
     templateUrl: './estudios.component.html',
     styleUrl: './estudios.component.css'
 })
+
 export class EstudiosComponent {
     estudios: Estudio[] = [
         {
-            titulo: 'Grado Superior en Desarrollo de Aplicaciones Web',
+            titulo: 'estudios.daw.titulo',
             centro: 'IES Ribera de los Molinos',
-            periodo: '2021 - 2023',
-            descripcion: 'Formación en desarrollo web full stack, bases de datos relacionales y despliegue de aplicaciones.',
+            periodo: 'estudios.videojuegos.fecha',
+            descripcion: 'estudios.daw.descripcion',
             tecnologias: [
                 TECNOLOGIAS.HTML_CSS,
                 TECNOLOGIAS.JAVASCRIPT,
@@ -36,10 +38,10 @@ export class EstudiosComponent {
             ]
         },
         {
-            titulo: 'Curso de especialización en Desarrollo de Videojuegos y Realidad Virtual',
+            titulo: 'estudios.videojuegos.titulo',
             centro: 'IES Ingeniero de la Cierva',
-            periodo: '2025 - 2026',
-            descripcion: 'Formación en desarrollo de videojuegos con Unity y C#, abarcando programación de mecánicas, diseño de interfaces interactivas y gestión de escenas.',
+            periodo: 'estudios.videojuegos.fecha',
+            descripcion: 'estudios.videojuegos.descripcion',
             tecnologias: [
                 TECNOLOGIAS.UNITY,
                 TECNOLOGIAS.CSHARP

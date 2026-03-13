@@ -1,20 +1,16 @@
 <div class="hero">
     <div class="hero-contenido">
-        <!-- Saludo y nombre -->
-        <p class="hero-saludo">¡Hola! soy</p>
+        <p class="hero-saludo">¡Hola, soy</p>
         <h1 class="hero-nombre">Alejandro</h1>
-        <p class="hero-rol">Desarrollador Full Stack</p>
-
-        <!-- Breve descripción -->
-        <p class="hero-descripcion">
-            Desarrollo web full stack con experiencia en Angular y Spring Boot, y proyectos en videojuegos y RV.
-        </p>
-
-        <!-- Botones de acción -->
+        <p class="hero-rol">{{ 'hero.rol' | translate }}</p>
+        <p class="hero-descripcion">{{ 'hero.descripcion' | translate }}</p>
         <div class="hero-botones">
-            <!-- Al hacer clic descarga el archivo cv.pdf de assets -->
-            <a href="assets/cv.pdf" download="Mi_CV.pdf" class="btn btn-primario">Descargar CV</a>
-            <button (click)="scrollTo('contacto')" class="btn btn-secundario">Contacto</button>
+            <a href="cv.pdf" download="Mi_CV.pdf" class="btn btn-primario">
+                {{ 'hero.btnCv' | translate }}
+            </a>
+            <button (click)="scrollTo('contacto')" class="btn btn-secundario">
+                {{ 'hero.btnContacto' | translate }}
+            </button>
         </div>
     </div>
 </div>

@@ -1,20 +1,20 @@
 <div class="proyectos">
     <div class="contenido">
-        <h2 class="titulo">Proyectos</h2>
+        <h2 class="titulo">{{ 'proyectos.titulo' | translate }}</h2>
 
         <!-- Grid de tarjetas -->
         <div class="grid">
             <div class="tarjeta" *ngFor="let proyecto of proyectos">
 
                 <!-- Nombre y descripción -->
-                <h3 class="proyecto-nombre">{{ proyecto.nombre }}</h3>
+                <h3 class="proyecto-nombre">{{ proyecto.nombre | translate }}</h3>
 
                 <!-- Imagen superior (solo si existe) -->
                 <div class="tarjeta-imagen" *ngIf="proyecto.imagen">
                     <img [src]="proyecto.imagen" [alt]="proyecto.nombre" />
                 </div>
 
-                <p class="proyecto-descripcion">{{ proyecto.descripcion }}</p>
+                <p class="proyecto-descripcion">{{ proyecto.descripcion | translate }}</p>
 
                 <!-- Píldoras de tecnologías -->
                 <div class="tecnologias">
@@ -35,7 +35,7 @@
                         GitHub
                     </a>
                     <a *ngIf="proyecto.urlDemo" [href]="proyecto.urlDemo" target="_blank" class="btn btn-demo">
-                        Video Demo
+                        {{ 'proyectos.btnDemo' | translate }}
                     </a>
                 </div>
             </div>

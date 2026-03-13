@@ -55,6 +55,7 @@
     cursor: pointer;
     transition: opacity 0.2s;
     border: none;
+    font-family: inherit;
 }
 
 .btn:hover {
@@ -64,6 +65,9 @@
 .btn-primario {
     background-color: white;
     color: #1a2668;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
 }
 
 .btn-secundario {

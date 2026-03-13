@@ -21,3 +21,7 @@ html, body {
     overflow-x: hidden;
     width: 100%;
 }
+
+section + section {
+    border-top: 2px solid rgba(168, 192, 255, 0.15);
+}

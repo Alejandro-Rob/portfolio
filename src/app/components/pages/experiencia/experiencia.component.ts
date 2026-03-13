@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TECNOLOGIAS } from '../../../constants/tecnolgias.constants'
+import { TranslateModule } from '@ngx-translate/core';
 
 interface Trabajo {
     empresa: string;
@@ -13,7 +14,7 @@ interface Trabajo {
 @Component({
     selector: 'app-experiencia',
     standalone: true,
-    imports: [CommonModule],
+    imports: [CommonModule, TranslateModule],
     templateUrl: './experiencia.component.html',
     styleUrl: './experiencia.component.css'
 })
