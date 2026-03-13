@@ -24,7 +24,7 @@ export class EstudiosComponent {
         {
             titulo: 'estudios.daw.titulo',
             centro: 'IES Ribera de los Molinos',
-            periodo: 'estudios.videojuegos.fecha',
+            periodo: 'estudios.daw.periodo',
             descripcion: 'estudios.daw.descripcion',
             tecnologias: [
                 TECNOLOGIAS.HTML_CSS,
@@ -38,9 +38,19 @@ export class EstudiosComponent {
             ]
         },
         {
+            titulo: 'estudios.dam.titulo',
+            centro: 'IES José Luis Martínez Palomo',
+            periodo: 'estudios.dam.periodo',
+            descripcion: 'estudios.dam.descripcion',
+            tecnologias: [
+                TECNOLOGIAS.HTML_CSS,
+                TECNOLOGIAS.JAVA
+            ]
+        },
+        {
             titulo: 'estudios.videojuegos.titulo',
             centro: 'IES Ingeniero de la Cierva',
-            periodo: 'estudios.videojuegos.fecha',
+            periodo: 'estudios.videojuegos.periodo',
             descripcion: 'estudios.videojuegos.descripcion',
             tecnologias: [
                 TECNOLOGIAS.UNITY,
