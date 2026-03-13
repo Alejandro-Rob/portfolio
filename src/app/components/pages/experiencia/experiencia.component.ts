@@ -5,9 +5,9 @@ import { TranslateModule } from '@ngx-translate/core';
 
 interface Trabajo {
     empresa: string;
-    puesto: string;
-    periodo: string;
-    descripcion: string[];
+    puestoKey: string;
+    periodoKey: string;
+    descripcionKeys: string[];
     tecnologias: string[];
 }
 
@@ -22,65 +22,44 @@ export class ExperienciaComponent {
     trabajos: Trabajo[] = [
         {
             empresa: 'Accenture',
-            puesto: 'Desarrollador web',
-            periodo: 'Marzo 2025 - Septiembre 2025',
-            descripcion: [
-                'Diseño y creación de documentos generados en formato PDF con Jasper desplegada en JasperServer.',
-                'Desarrollo de aplicación web como frontend en Angular 16.'
+            puestoKey: 'experiencia.accenture.puesto',
+            periodoKey: 'experiencia.accenture.periodo',
+            descripcionKeys: [
+                'experiencia.accenture.descripcion.0',
+                'experiencia.accenture.descripcion.1',
             ],
-            tecnologias: [
-                TECNOLOGIAS.JAVASCRIPT,
-                TECNOLOGIAS.TYPESCRIPT,
-                TECNOLOGIAS.ANGULAR,
-                TECNOLOGIAS.BITBUCKET
-            ]
+            tecnologias: []
         },
         {
             empresa: 'MASISTE 2001 S.L.',
-            puesto: 'Desarrollador de aplicaciones',
-            periodo: 'Noviembre 2023 - Marzo 2025',
-            descripcion: [
-                'Desarrollo de aplicaciones web con backend en Spring (con API REST) y frontend en Angular.',
-                'Aplicación web de gestión de planta.',
-                'Aplicación web de pesaje de vehículos.',
-    
-                'Desarrollo de software de escritorio con Java.',
-                'Aplicación de impresión automática de documentos.',
-                'Aplicación de gestión de datos con Excel sobre base de datos.',
-                'Aplicación de gestión de archivos en directorios internos.',
-    
-                'Desarrollo de software de pesaje en .NET (Visual Basic).',
-                'Aplicación de escritorio de pesaje de contenedores en planta.',
-    
-                'Diseño, creación y manejo de bases de datos en SQL Server para el software mencionado.'
+            puestoKey: 'experiencia.masiste.puesto',
+            periodoKey: 'experiencia.masiste.periodo',
+            descripcionKeys: [
+                'experiencia.masiste.descripcion.0',
+                'experiencia.masiste.descripcion.1',
+                'experiencia.masiste.descripcion.2',
+                'experiencia.masiste.descripcion.3',
+                'experiencia.masiste.descripcion.4',
+                'experiencia.masiste.descripcion.5',
+                'experiencia.masiste.descripcion.6',
+                'experiencia.masiste.descripcion.7',
+                'experiencia.masiste.descripcion.8',
+                'experiencia.masiste.descripcion.9',
             ],
-            tecnologias: [
-                TECNOLOGIAS.TYPESCRIPT,
-                TECNOLOGIAS.ANGULAR,
-                TECNOLOGIAS.SPRING_BOOT,
-                TECNOLOGIAS.JAVA,
-                TECNOLOGIAS.SQL_SERVER,
-                TECNOLOGIAS.VISUAL_STUDIO
-            ]
+            tecnologias: []
         },
         {
             empresa: 'NEORIS',
-            puesto: 'Prácticas FCT',
-            periodo: 'Marzo 2023 - Junio 2023',
-            descripcion: [
-                'Cursos de formación HTML, CSS, JavaScript, TypeScript.',
-                'Uso de tecnologías de desarrollo web (HTML, CSS, JavaScript).',
-                'Formación en librería de JavaScript Lit Element.',
-                'Testing con Jasmine y Karma.',
-                'Uso de la plataforma de GitHub.'
+            puestoKey: 'experiencia.neoris.puesto',
+            periodoKey: 'experiencia.neoris.periodo',
+            descripcionKeys: [
+                'experiencia.neoris.descripcion.0',
+                'experiencia.neoris.descripcion.1',
+                'experiencia.neoris.descripcion.2',
+                'experiencia.neoris.descripcion.3',
+                'experiencia.neoris.descripcion.4',
             ],
-            tecnologias: [
-                TECNOLOGIAS.HTML_CSS,
-                TECNOLOGIAS.JAVASCRIPT,
-                TECNOLOGIAS.TYPESCRIPT,
-                TECNOLOGIAS.GIT,
-                TECNOLOGIAS.VSCODE
-            ]
+            tecnologias: []
         }
     ];
 }

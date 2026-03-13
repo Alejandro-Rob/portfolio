@@ -9,6 +9,7 @@
         "contacto": "Contacto"
     },
     "hero": {
+        "saludo": "¡Hola! soy",
         "rol": "Desarrollador Full Stack",
         "descripcion": "Desarrollo web full stack con experiencia en Angular y Spring Boot, y proyectos en videojuegos y RV.",
         "btnCv": "Descargar CV",
@@ -26,7 +27,42 @@
         "aprendiendo": "Aprendiendo"
     },
     "experiencia": {
-        "titulo": "Experiencia"
+        "titulo": "Experiencia",
+        "accenture": {
+            "puesto": "Desarrollador web",
+            "periodo": "Marzo 2025 - Septiembre 2025",
+            "descripcion": [
+                "Diseño y creación de documentos generados en formato PDF con Jasper desplegada en JasperServer.",
+                "Desarrollo de aplicación web como frontend en Angular 16."
+            ]
+        },
+        "masiste": {
+            "puesto": "Desarrollador de aplicaciones",
+            "periodo": "Noviembre 2023 - Marzo 2025",
+            "descripcion": [
+                "Desarrollo de aplicaciones web con backend en Spring (con API REST) y frontend en Angular.",
+                "Aplicación web de gestión de planta.",
+                "Aplicación web de pesaje de vehículos.",
+                "Desarrollo de software de escritorio con Java.",
+                "Aplicación de impresión automática de documentos.",
+                "Aplicación de gestión de datos con Excel sobre base de datos.",
+                "Aplicación de gestión de archivos en directorios internos.",
+                "Desarrollo de software de pesaje en .NET (Visual Basic).",
+                "Aplicación de escritorio de pesaje de contenedores en planta.",
+                "Diseño, creación y manejo de bases de datos en SQL Server para el software mencionado."
+            ]
+        },
+        "neoris": {
+            "puesto": "Prácticas FCT",
+            "periodo": "Marzo 2023 - Junio 2023",
+            "descripcion": [
+                "Cursos de formación HTML, CSS, JavaScript, TypeScript.",
+                "Uso de tecnologías de desarrollo web (HTML, CSS, JavaScript).",
+                "Formación en librería de JavaScript Lit Element.",
+                "Testing con Jasmine y Karma.",
+                "Uso de la plataforma de GitHub."
+            ]
+        }
     },
     "estudios": {
         "titulo": "Estudios",

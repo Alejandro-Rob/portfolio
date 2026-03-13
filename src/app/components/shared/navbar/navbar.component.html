@@ -13,9 +13,11 @@
         <li><button (click)="scrollTo('contacto')">{{ 'navbar.contacto' | translate }}</button></li>
 
         <!-- Botón de cambio de idioma -->
-        <li>
-            <button class="btn-idioma" (click)="cambiarIdioma()">
-                {{ idiomaActual === 'es' ? '🇬🇧 EN' : '🇪🇸 ES' }}
+        <li *ngFor="let idioma of idiomas">
+            <button class="btn-idioma"
+                [class.activo]="idiomaActual === idioma.codigo"
+                (click)="cambiarIdioma(idioma.codigo)">
+                {{ idioma.etiqueta }}
             </button>
         </li>
     </ul>

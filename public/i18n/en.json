@@ -9,6 +9,7 @@
         "contacto": "Contact"
     },
     "hero": {
+        "saludo": "Hello! I'm",
         "rol": "Full Stack Developer",
         "descripcion": "Full stack web development with experience in Angular and Spring Boot, and projects in game development and VR.",
         "btnCv": "Download CV",
@@ -26,7 +27,42 @@
         "aprendiendo": "Learning"
     },
     "experiencia": {
-        "titulo": "Experience"
+        "titulo": "Experience",
+        "accenture": {
+            "periodo": "2025 March - 2025 September",
+            "puesto": "Web Developer",
+            "descripcion": [
+                "Design and creation of PDF documents generated with Jasper deployed on JasperServer.",
+                "Web application development as frontend in Angular 16."
+            ]
+        },
+        "masiste": {
+            "puesto": "Application Developer",
+            "periodo": "2023 November - 2025 March",
+            "descripcion": [
+                "Web application development with Spring backend (REST API) and Angular frontend.",
+                "Plant management web application.",
+                "Vehicle weighing web application.",
+                "Desktop software development with Java.",
+                "Automatic document printing application.",
+                "Data management application with Excel over database.",
+                "File management application in internal directories.",
+                "Weighing software development in .NET (Visual Basic).",
+                "Container weighing desktop application at plant.",
+                "Design, creation and management of SQL Server databases for the mentioned software."
+            ]
+        },
+        "neoris": {
+            "puesto": "FCT Internship",
+            "periodo": "2023 March - 2023 June",
+            "descripcion": [
+                "Training courses in HTML, CSS, JavaScript, TypeScript.",
+                "Use of web development technologies (HTML, CSS, JavaScript).",
+                "Training in JavaScript Lit Element library.",
+                "Testing with Jasmine and Karma.",
+                "Use of the GitHub platform."
+            ]
+        }
     },
     "estudios": {
         "titulo": "Education",

@@ -87,3 +87,9 @@
     border: 1px solid rgba(168, 192, 255, 0.4) !important;
     border-radius: 6px !important;
 }
+
+/* Resalta el idioma seleccionado */
+.btn-idioma.activo {
+    background-color: rgba(168, 192, 255, 0.35) !important;
+    border-color: #a8c0ff !important;
+}

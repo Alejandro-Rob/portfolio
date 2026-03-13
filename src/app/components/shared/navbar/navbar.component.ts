@@ -14,6 +14,13 @@ export class NavbarComponent {
     menuAbierto = false;
     idiomaActual = 'es';
 
+    // Array de idiomas disponibles
+    idiomas = [
+        { codigo: 'es', etiqueta: '🇪🇸 ES' },
+        { codigo: 'en', etiqueta: '🇬🇧 EN' },
+        { codigo: 'de', etiqueta: '🇩🇪 DE' },
+    ];
+
     constructor(private translate: TranslateService) {
         translate.setDefaultLang('es');
         translate.use('es');
@@ -31,9 +38,8 @@ export class NavbarComponent {
         this.menuAbierto = false;
     }
 
-    // Cambia entre español e inglés
-    cambiarIdioma() {
-        this.idiomaActual = this.idiomaActual === 'es' ? 'en' : 'es';
-        this.translate.use(this.idiomaActual);
+    cambiarIdioma(codigo: string) {
+        this.idiomaActual = codigo;
+        this.translate.use(codigo);
     }
 }

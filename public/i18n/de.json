@@ -1,0 +1,108 @@
+{
+    "navbar": {
+        "inicio": "Start",
+        "sobreMi": "Über mich",
+        "tecnologias": "Technologien",
+        "experiencia": "Erfahrung",
+        "estudios": "Ausbildung",
+        "proyectos": "Projekte",
+        "contacto": "Kontakt"
+    },
+    "hero": {
+        "saludo": "Hallo! Ich bin",
+        "rol": "Full Stack Entwickler",
+        "descripcion": "Full Stack Webentwicklung mit Erfahrung in Angular und Spring Boot, sowie Projekten in Spieleentwicklung und VR.",
+        "btnCv": "Lebenslauf herunterladen",
+        "btnContacto": "Kontakt"
+    },
+    "sobreMi": {
+        "titulo": "Über mich",
+        "p1": "Ich bin <strong>Alejandro</strong>, Webentwickler mit Erfahrung in Angular (TS) und Spring Boot (Java). Ich arbeite auch in der Spieleentwicklung mit Unity (C#), was mir eine andere Perspektive bei der Gestaltung von Benutzeroberflächen gibt.",
+        "p2": "Spiele und VR sind nicht nur ein Hobby, sondern echte Projekte, die mein Web-Profil ergänzen und mir ein umfassenderes Verständnis davon geben, wie Menschen mit Technologie interagieren."
+    },
+    "tecnologias": {
+        "titulo": "Technologien",
+        "domino": "Bisherige Erfahrung",
+        "herramientas": "Werkzeuge und Umgebungen",
+        "aprendiendo": "In Ausbildung"
+    },
+    "experiencia": {
+        "titulo": "Erfahrung",
+        "accenture": {
+            "puesto": "Webentwickler",
+            "periodo": "März 2025 - September 2025",
+            "descripcion": [
+                "Gestaltung und Erstellung von PDF-Dokumenten mit Jasper auf JasperServer.",
+                "Entwicklung einer Webanwendung als Frontend in Angular 16."
+            ]
+        },
+        "masiste": {
+            "puesto": "Anwendungsentwickler",
+            "periodo": "November 2023 - März 2025",
+            "descripcion": [
+                "Entwicklung von Webanwendungen mit Spring-Backend (REST API) und Angular-Frontend.",
+                "Webanwendung zur Anlagenverwaltung.",
+                "Webanwendung zur Fahrzeugwiegung.",
+                "Desktop-Softwareentwicklung mit Java.",
+                "Anwendung zum automatischen Drucken von Dokumenten.",
+                "Datenverwaltungsanwendung mit Excel über Datenbank.",
+                "Dateiverwaltungsanwendung in internen Verzeichnissen.",
+                "Wiegesoftwareentwicklung in .NET (Visual Basic).",
+                "Desktop-Anwendung zur Containerwiegung im Werk.",
+                "Design, Erstellung und Verwaltung von SQL Server-Datenbanken für die genannte Software."
+            ]
+        },
+        "neoris": {
+            "puesto": "Praktikum FCT",
+            "periodo": "März 2023 - Juni 2023",
+            "descripcion": [
+                "Schulungen in HTML, CSS, JavaScript, TypeScript.",
+                "Verwendung von Webentwicklungstechnologien (HTML, CSS, JavaScript).",
+                "Schulung in der JavaScript-Bibliothek Lit Element.",
+                "Testen mit Jasmine und Karma.",
+                "Verwendung der GitHub-Plattform."
+            ]
+        }
+    },
+    "estudios": {
+        "titulo": "Ausbildung",
+        "daw": {
+            "titulo": "Höhere Berufsausbildung in Webapplikationsentwicklung",
+            "centro": "IES Ribera de los Molinos",
+            "fecha": "September 2021 - Juni 2023",
+            "descripcion": "Ausbildung in Full Stack Webentwicklung, relationalen Datenbanken und Anwendungsbereitstellung."
+        },
+        "videojuegos": {
+            "titulo": "Spezialisierungskurs in Spieleentwicklung und Virtual Reality",
+            "centro": "IES Ingeniero de la Cierva",
+            "fecha": "September 2025 - Juni 2026",
+            "descripcion": "Ausbildung in Spieleentwicklung mit Unity und C#, einschließlich Mechanikprogrammierung, interaktivem Interface-Design und Szenenverwaltung."
+        }
+    },
+    "proyectos": {
+        "titulo": "Projekte",
+        "btnGithub": "GitHub",
+        "btnDemo": "Video Demo",
+        "hoppr": {
+            "nombre": "Hoppr",
+            "descripcion": "Haushaltsaufgaben-App für Ausgaben, Rezepte und Einkaufslisten, installiert auf einem Raspberry PI verbunden mit Github"
+        },
+        "museo": {
+            "nombre": "VR Museum",
+            "descripcion": "VR-Simulation eines Videospielmuseums mit interaktiven Informationen"
+        },
+        "galeria": {
+            "nombre": "VR Schießgalerie",
+            "descripcion": "In VR entwickelte Schießgalerie"
+        },
+        "plataformas": {
+            "nombre": "2D Plattformer",
+            "descripcion": "Erste 2D-Spielszene in Unity erstellt"
+        }
+    },
+    "contacto": {
+        "titulo": "Kontakt",
+        "subtitulo": "Haben Sie einen Vorschlag oder eine Frage? Kontaktieren Sie mich!",
+        "ubicacion": "Murcia, Spanien"
+    }
+}

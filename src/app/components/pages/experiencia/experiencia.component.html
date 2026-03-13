@@ -13,15 +13,17 @@
                 <div class="tarjeta">
                     <div class="tarjeta-cabecera">
                         <div>
-                            <h3 class="puesto">{{ trabajo.puesto }}</h3>
+                            <h3 class="puesto">{{ trabajo.puestoKey | translate }}</h3>
                             <p class="empresa">{{ trabajo.empresa }}</p>
                         </div>
-                        <span class="periodo">{{ trabajo.periodo }}</span>
+                        <span class="periodo">{{ trabajo.periodoKey | translate }}</span>
                     </div>
 
                     <!-- Lista de tareas -->
                     <ul class="descripcion">
-                        <li *ngFor="let item of trabajo.descripcion">{{ item }}</li>
+                        <li *ngFor="let key of trabajo.descripcionKeys">
+                            {{ key | translate }}
+                        </li>
                     </ul>
 
                     <!-- Iconos de tecnologías (solo si hay alguna) -->
