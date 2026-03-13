@@ -1,0 +1,72 @@
+{
+    "navbar": {
+        "inicio": "Inicio",
+        "sobreMi": "Sobre mí",
+        "tecnologias": "Tecnologías",
+        "experiencia": "Experiencia",
+        "estudios": "Estudios",
+        "proyectos": "Proyectos",
+        "contacto": "Contacto"
+    },
+    "hero": {
+        "rol": "Desarrollador Full Stack",
+        "descripcion": "Desarrollo web full stack con experiencia en Angular y Spring Boot, y proyectos en videojuegos y RV.",
+        "btnCv": "Descargar CV",
+        "btnContacto": "Contacto"
+    },
+    "sobreMi": {
+        "titulo": "Sobre mí",
+        "p1": "Soy <strong>Alejandro</strong>, desarrollador web con experiencia en Angular (TS) y Spring Boot (Java). También me muevo en el mundo del desarrollo de videojuegos con Unity (C#), lo que me da una perspectiva diferente a la hora de pensar en experiencia de usuario e interfaces.",
+        "p2": "Los videojuegos y la RV no son solo un hobby, son proyectos reales que complementan mi perfil web y me dan una visión más completa de cómo las personas interactúan con la tecnología."
+    },
+    "tecnologias": {
+        "titulo": "Tecnologías",
+        "domino": "Experiencia previa",
+        "herramientas": "Herramientas y entornos",
+        "aprendiendo": "Aprendiendo"
+    },
+    "experiencia": {
+        "titulo": "Experiencia"
+    },
+    "estudios": {
+        "titulo": "Estudios",
+        "daw": {
+            "titulo": "Grado Superior en Desarrollo de Aplicaciones Web",
+            "centro": "IES Ribera de los Molinos",
+            "fecha" : "Septiembre 2021 - Junio 2023",
+            "descripcion": "Formación en desarrollo web full stack, bases de datos relacionales y despliegue de aplicaciones."
+        },
+        "videojuegos": {
+            "titulo": "Curso de especialización en Desarrollo de Videojuegos y Realidad Virtual",
+            "centro": "IES Ingeniero de la Cierva",
+            "fecha" : "Septiembre 2025 - Junio 2026",
+            "descripcion": "Formación en desarrollo de videojuegos con Unity y C#, abarcando programación de mecánicas, diseño de interfaces interactivas y gestión de escenas."
+        }
+    },
+    "proyectos": {
+        "titulo": "Proyectos",
+        "btnGithub": "GitHub",
+        "btnDemo": "Video Demo",
+        "hoppr": {
+            "nombre": "Hoppr",
+            "descripcion": "Aplicación para gestión de tareas del hogar como gastos, recetas de cocina o lista de la compra instalada en Raspberry PI conectada a Github"
+        },
+        "museo": {
+            "nombre": "Museo VR",
+            "descripcion": "Simulación para VR de un museo del videojuego con información interactiva"
+        },
+        "galeria": {
+            "nombre": "Galería de tiro VR",
+            "descripcion": "Galería de tiro desarrollada en VR"
+        },
+        "plataformas": {
+            "nombre": "Plataformas 2D",
+            "descripcion": "Primera escena de videojuego en 2D realizada en Unity"
+        }
+    },
+    "contacto": {
+        "titulo": "Contacto",
+        "subtitulo": "¿Tienes alguna propuesta o pregunta? ¡Contáctame!",
+        "ubicacion": "Murcia, España"
+    }
+}
