@@ -66,17 +66,23 @@
     },
     "estudios": {
         "titulo": "Ausbildung",
-        "daw": {
-            "titulo": "Höhere Berufsausbildung in Webapplikationsentwicklung",
-            "centro": "IES Ribera de los Molinos",
-            "fecha": "September 2021 - Juni 2023",
-            "descripcion": "Ausbildung in Full Stack Webentwicklung, relationalen Datenbanken und Anwendungsbereitstellung."
-        },
         "videojuegos": {
             "titulo": "Spezialisierungskurs in Spieleentwicklung und Virtual Reality",
             "centro": "IES Ingeniero de la Cierva",
             "fecha": "September 2025 - Juni 2026",
             "descripcion": "Ausbildung in Spieleentwicklung mit Unity und C#, einschließlich Mechanikprogrammierung, interaktivem Interface-Design und Szenenverwaltung."
+        },
+        "dam": {
+            "titulo": "Höhere Berufsausbildung in Multiplattform-Anwendungsentwicklung (Nicht abgeschlossen)",
+            "centro": "IES José Luis Martínez Palomo",
+            "periodo": "September 2023 - November 2023",
+            "descripcion": "Ausbildung in der Multiplattform-Anwendungsentwicklung."
+        },
+        "daw": {
+            "titulo": "Höhere Berufsausbildung in Webapplikationsentwicklung",
+            "centro": "IES Ribera de los Molinos",
+            "fecha": "September 2021 - Juni 2023",
+            "descripcion": "Ausbildung in Full Stack Webentwicklung, relationalen Datenbanken und Anwendungsbereitstellung."
         }
     },
     "proyectos": {

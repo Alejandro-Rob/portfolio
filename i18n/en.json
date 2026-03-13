@@ -66,17 +66,23 @@
     },
     "estudios": {
         "titulo": "Education",
-        "daw": {
-            "titulo": "Higher Degree in Web Application Development",
-            "centro": "IES Ribera de los Molinos",
-            "fecha" : "2021 September - 2023 June",
-            "descripcion": "Training in full stack web development, relational databases and application deployment."
-        },
         "videojuegos": {
             "titulo": "Specialization Course in Video Game and Virtual Reality Development",
             "centro": "IES Ingeniero de la Cierva",
-            "fecha" : "2025 September - 2026 June",
+            "periodo" : "2025 September - 2026 June",
             "descripcion": "Training in video game development with Unity and C#, covering mechanics programming, interactive interface design and scene management."
+        },
+        "dam": {
+            "titulo": "Higher Degree in Cross-Platform Application Development (Not completed)",
+            "centro": "IES José Luis Martínez Palomo",
+            "periodo": "2023 September - 2023 November",
+            "descripcion": "Training in cross-platform application development."
+        },
+        "daw": {
+            "titulo": "Higher Degree in Web Application Development",
+            "centro": "IES Ribera de los Molinos",
+            "periodo" : "2021 September - 2023 June",
+            "descripcion": "Training in full stack web development, relational databases and application deployment."
         }
     },
     "proyectos": {

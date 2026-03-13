@@ -66,17 +66,23 @@
     },
     "estudios": {
         "titulo": "Estudios",
-        "daw": {
-            "titulo": "Grado Superior en Desarrollo de Aplicaciones Web",
-            "centro": "IES Ribera de los Molinos",
-            "fecha" : "Septiembre 2021 - Junio 2023",
-            "descripcion": "Formación en desarrollo web full stack, bases de datos relacionales y despliegue de aplicaciones."
-        },
         "videojuegos": {
             "titulo": "Curso de especialización en Desarrollo de Videojuegos y Realidad Virtual",
             "centro": "IES Ingeniero de la Cierva",
-            "fecha" : "Septiembre 2025 - Junio 2026",
+            "periodo" : "Septiembre 2025 - Junio 2026",
             "descripcion": "Formación en desarrollo de videojuegos con Unity y C#, abarcando programación de mecánicas, diseño de interfaces interactivas y gestión de escenas."
+        },
+        "dam": {
+            "titulo": "Grado Superior en Desarrollo de Aplicaciones Multiplataforma (No finalizado)",
+            "centro": "IES José Luis Martínez Palomo",
+            "periodo" : "Septiembre 2023 - Noviembre 2023",
+            "descripcion": "Formación en desarrollo de aplicaciones multiplataforma"
+        },
+        "daw": {
+            "titulo": "Grado Superior en Desarrollo de Aplicaciones Web",
+            "centro": "IES Ribera de los Molinos",
+            "periodo" : "Septiembre 2021 - Junio 2023",
+            "descripcion": "Formación en desarrollo web full stack, bases de datos relacionales y despliegue de aplicaciones."
         }
     },
     "proyectos": {
