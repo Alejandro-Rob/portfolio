@@ -16,34 +16,51 @@ interface Tecnologia {
     templateUrl: './tecnologias.component.html',
     styleUrl: './tecnologias.component.css'
 })
+
 export class TecnologiasComponent {
     domino: Tecnologia[] = [
-        { nombre: 'Angular',      icono: TECNOLOGIAS.ANGULAR },
-        { nombre: 'TypeScript',   icono: TECNOLOGIAS.TYPESCRIPT },
-        { nombre: 'Spring Boot',  icono: TECNOLOGIAS.SPRING_BOOT },
-        { nombre: 'Java',         icono: TECNOLOGIAS.JAVA },
-        { nombre: 'C#',           icono: TECNOLOGIAS.CSHARP },
-        { nombre: 'Laravel',      icono: TECNOLOGIAS.LARAVEL },
-        { nombre: 'PHP',          icono: TECNOLOGIAS.PHP },
-        { nombre: 'SQL',          icono: TECNOLOGIAS.SQL },
-        { nombre: 'HTML/CSS',     icono: TECNOLOGIAS.HTML_CSS },
-        { nombre: 'JavaScript',   icono: TECNOLOGIAS.JAVASCRIPT },
-        { nombre: 'Bootstrap',    icono: TECNOLOGIAS.BOOTSTRAP },
-        { nombre: 'SQL Server',   icono: TECNOLOGIAS.SQL_SERVER },
+        { nombre: 'HTML/CSS',     icono:  TECNOLOGIAS.HTML_CSS },
+        { nombre: 'JavaScript',   icono:  TECNOLOGIAS.JAVASCRIPT },
+        { nombre: 'TypeScript',   icono:  TECNOLOGIAS.TYPESCRIPT },
+        { nombre: 'Java',         icono:  TECNOLOGIAS.JAVA },
+        { nombre: 'C#',           icono:  TECNOLOGIAS.CSHARP },
+        { nombre: 'PHP',          icono:  TECNOLOGIAS.PHP },
+        { nombre: 'SQL',          icono:  TECNOLOGIAS.SQL },
+        { nombre: 'SQL Server',   icono:  TECNOLOGIAS.SQL_SERVER },
+        { nombre: 'Visual Basic', imagen: 'images/vb.png' },
+    ];
+
+    frameworks: Tecnologia[] = [
+        { nombre: 'Angular',     icono:  TECNOLOGIAS.ANGULAR },
+        { nombre: 'Spring Boot', icono:  TECNOLOGIAS.SPRING_BOOT },
+        { nombre: 'Laravel',     icono:  TECNOLOGIAS.LARAVEL },
+        { nombre: 'Bootstrap',   icono:  TECNOLOGIAS.BOOTSTRAP },
     ];
 
     herramientas: Tecnologia[] = [
-        { nombre: 'Unity',          icono: TECNOLOGIAS.UNITY },
-        { nombre: 'Visual Studio',  icono: TECNOLOGIAS.VISUAL_STUDIO },
-        { nombre: 'VS Code',        icono: TECNOLOGIAS.VSCODE },
+        { nombre: 'Unity',          icono:  TECNOLOGIAS.UNITY },
+        { nombre: 'Visual Studio',  icono:  TECNOLOGIAS.VISUAL_STUDIO },
+        { nombre: 'VS Code',        icono:  TECNOLOGIAS.VSCODE },
+        { nombre: 'NetBeans',       icono:  TECNOLOGIAS.NETBEANS },
+        { nombre: 'IntelliJ',       icono:  TECNOLOGIAS.INTELLIJ },
+        { nombre: 'GIT-HUB',        icono:  TECNOLOGIAS.GIT },
+        { nombre: 'Bitbucket',      imagen: 'images/bitbucket.jpg' },
+        { nombre: 'SourceTree',     imagen: 'images/sourcetree.png' },
         { nombre: 'Jasper Reports', imagen: 'images/jasper.jpg' },
-        { nombre: 'GIT-HUB',        icono: TECNOLOGIAS.GIT },
-        { nombre: 'NetBeans',       icono: TECNOLOGIAS.NETBEANS },
-        { nombre: 'IntelliJ',       icono: TECNOLOGIAS.INTELLIJ },
+        { nombre: 'Photon PUN',     imagen: 'images/photon.jpg' },
     ];
 
     aprendiendo: Tecnologia[] = [
         { nombre: 'Python', icono: TECNOLOGIAS.PYTHON },
         { nombre: 'Godot',  icono: TECNOLOGIAS.GODOT },
     ];
+
+    // especialidad: Tecnologia[] = [
+    //     { nombre: 'Angular',        icono:  TECNOLOGIAS.ANGULAR },
+    //     { nombre: 'TypeScript',     icono:  TECNOLOGIAS.TYPESCRIPT },
+    //     { nombre: 'Unity',          icono:  TECNOLOGIAS.UNITY },
+    //     { nombre: 'C#',             icono:  TECNOLOGIAS.CSHARP },
+    //     { nombre: 'Java',           icono:  TECNOLOGIAS.JAVA },
+    //     { nombre: 'Jasper Reports', imagen: 'images/jasper.jpg' },
+    // ];
 }

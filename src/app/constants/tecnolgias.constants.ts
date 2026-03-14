@@ -25,5 +25,5 @@ export const TECNOLOGIAS = {
     INTELLIJ:      'devicon-intellij-plain',
     VISUAL_STUDIO: 'devicon-visualstudio-plain',
     GIT:           'devicon-git-plain',
-    BITBUCKET:     'devicon-bitbucket-plain',
+    BITBUCKET:     'devicon-bitbucket-plain'
 } as const;

@@ -2,6 +2,7 @@
     <div class="contenido">
         <h2 class="titulo">{{ 'tecnologias.titulo' | translate }}</h2>
 
+        <!-- Competencias -->
         <div class="grupo">
             <h3 class="subtitulo">{{ 'tecnologias.domino' | translate }}</h3>
             <div class="grid-iconos">
@@ -13,6 +14,19 @@
             </div>
         </div>
 
+        <!-- Frameworks -->
+        <div class="grupo">
+            <h3 class="subtitulo">{{ 'tecnologias.frameworks' | translate }}</h3>
+            <div class="grid-iconos">
+                <div class="icono-item" *ngFor="let tech of frameworks">
+                    <i *ngIf="tech.icono" [class]="tech.icono + ' colored'"></i>
+                    <img *ngIf="tech.imagen" [src]="tech.imagen" [alt]="tech.nombre" class="icono-imagen" />
+                    <span>{{ tech.nombre }}</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Herramientas -->
         <div class="grupo">
             <h3 class="subtitulo">{{ 'tecnologias.herramientas' | translate }}</h3>
             <div class="grid-iconos">
@@ -24,6 +38,7 @@
             </div>
         </div>
 
+        <!-- Aprendiendo -->
         <div class="grupo">
             <h3 class="subtitulo">{{ 'tecnologias.aprendiendo' | translate }}</h3>
             <div class="grid-iconos">
