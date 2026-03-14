@@ -27,7 +27,7 @@ export class TecnologiasComponent {
         { nombre: 'PHP',          icono:  TECNOLOGIAS.PHP },
         { nombre: 'SQL',          icono:  TECNOLOGIAS.SQL },
         { nombre: 'SQL Server',   icono:  TECNOLOGIAS.SQL_SERVER },
-        { nombre: 'Visual Basic', imagen: 'images/vb.png' },
+        { nombre: 'Visual Basic', imagen: 'images/vb.webp' },
     ];
 
     frameworks: Tecnologia[] = [
@@ -44,10 +44,10 @@ export class TecnologiasComponent {
         { nombre: 'NetBeans',       icono:  TECNOLOGIAS.NETBEANS },
         { nombre: 'IntelliJ',       icono:  TECNOLOGIAS.INTELLIJ },
         { nombre: 'GIT-HUB',        icono:  TECNOLOGIAS.GIT },
-        { nombre: 'Bitbucket',      imagen: 'images/bitbucket.jpg' },
-        { nombre: 'SourceTree',     imagen: 'images/sourcetree.png' },
-        { nombre: 'Jasper Reports', imagen: 'images/jasper.jpg' },
-        { nombre: 'Photon PUN',     imagen: 'images/photon.jpg' },
+        { nombre: 'Bitbucket',      imagen: 'images/bitbucket.webp' },
+        { nombre: 'SourceTree',     imagen: 'images/sourcetree.webp' },
+        { nombre: 'Jasper Reports', imagen: 'images/jasper.webp' },
+        { nombre: 'Photon PUN',     imagen: 'images/photon.webp' },
     ];
 
     aprendiendo: Tecnologia[] = [
@@ -61,6 +61,6 @@ export class TecnologiasComponent {
     //     { nombre: 'Unity',          icono:  TECNOLOGIAS.UNITY },
     //     { nombre: 'C#',             icono:  TECNOLOGIAS.CSHARP },
     //     { nombre: 'Java',           icono:  TECNOLOGIAS.JAVA },
-    //     { nombre: 'Jasper Reports', imagen: 'images/jasper.jpg' },
+    //     { nombre: 'Jasper Reports', imagen: 'images/jasper.webp' },
     // ];
 }

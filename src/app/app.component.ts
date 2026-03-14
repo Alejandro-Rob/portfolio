@@ -9,11 +9,13 @@ import { TecnologiasComponent } from './components/pages/tecnologias/tecnologias
 import { EstudiosComponent } from './components/pages/estudios/estudios.component';
 import { MobilePreviewComponent } from './components/shared/mobile-preview/mobile-preview.component';
 import { TranslateService } from '@ngx-translate/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
     selector: 'app-root',
     standalone: true,
     imports: [
+        CommonModule,
         NavbarComponent,
         SobreMiComponent,
         ExperienciaComponent,
@@ -28,4 +30,14 @@ import { TranslateService } from '@ngx-translate/core';
     styleUrl: './app.component.css'
 })
 
-export class AppComponent { }
+export class AppComponent {
+    traduccionLista = false;
+
+    constructor(private translate: TranslateService) {
+        translate.setDefaultLang('es');
+        translate.use('es').subscribe(() => {
+            this.traduccionLista = true; // Muestra el contenido cuando las traducciones están listas
+        });
+    }
+}
+

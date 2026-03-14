@@ -30,7 +30,7 @@ proyectos: Proyecto[] = [
     {
         nombre: 'proyectos.hoppr.nombre',
         descripcion: 'proyectos.hoppr.descripcion',  // 👈 Clave en lugar de texto
-        imagen: 'images/Hoppr.png',
+        imagen: 'images/Hoppr.webp',
         tecnologias: [
             { icono: TECNOLOGIAS.ANGULAR },
             { icono: TECNOLOGIAS.TYPESCRIPT },
@@ -41,7 +41,7 @@ proyectos: Proyecto[] = [
     {
         nombre: 'proyectos.museo.nombre',
         descripcion: 'proyectos.museo.descripcion',
-        imagen: 'images/VR_Museum.png',
+        imagen: 'images/VR_Museum.webp',
         tecnologias: [
             { icono: TECNOLOGIAS.CSHARP },
             { icono: TECNOLOGIAS.UNITY },
@@ -51,7 +51,7 @@ proyectos: Proyecto[] = [
     {
         nombre: 'proyectos.galeria.nombre',
         descripcion: 'proyectos.galeria.descripcion',
-        imagen: 'images/VR_Gallery.png',
+        imagen: 'images/VR_Gallery.webp',
         tecnologias: [
             { icono: TECNOLOGIAS.CSHARP },
             { icono: TECNOLOGIAS.UNITY },
@@ -61,7 +61,7 @@ proyectos: Proyecto[] = [
     {
         nombre: 'proyectos.plataformas.nombre',
         descripcion: 'proyectos.plataformas.descripcion',
-        imagen: 'images/Platform2D.png',
+        imagen: 'images/Platform2D.webp',
         tecnologias: [
             { icono: TECNOLOGIAS.CSHARP },
             { icono: TECNOLOGIAS.UNITY },
