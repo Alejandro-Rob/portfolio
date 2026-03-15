@@ -1,0 +1,14 @@
+<!-- <div class="tech-icons" *ngIf="tecnologias.length > 0">
+    <ng-container *ngFor="let tech of tecnologias">
+        <i *ngIf="tech.icono" [class]="tech.icono + ' colored'" class="tech-icono" [title]="tech.nombre || ''"></i>
+        <img *ngIf="tech.imagen" [src]="tech.imagen" [alt]="tech.nombre || 'Tecnología'" class="tech-icono-imagen" [title]="tech.nombre || ''"/>
+    </ng-container>
+</div> -->
+<div class="tech-icons" *ngIf="tecnologias.length > 0">
+    <ng-container *ngFor="let tech of tecnologias">
+        <div class="icono-wrapper" [attr.data-nombre]="tech.nombre || 'Sin nombre'">
+            <i *ngIf="tech.icono" [class]="tech.icono + ' colored'" class="tech-icono"></i>
+            <img *ngIf="tech.imagen" [src]="tech.imagen" [alt]="tech.nombre || 'Tecnología'" class="tech-icono-imagen"/>
+        </div>
+    </ng-container>
+</div>

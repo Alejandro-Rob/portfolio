@@ -17,12 +17,7 @@
                 <p [innerHTML]="proyecto.descripcion | translate" class="proyecto-descripcion"></p>
 
                 <!-- Píldoras de tecnologías -->
-                <div class="tecnologias">
-                    <ng-container *ngFor="let tech of proyecto.tecnologias">
-                        <i *ngIf="tech.icono" [class]="tech.icono + ' colored'" class="tech-icono"></i>
-                        <img *ngIf="tech.imagen" [src]="tech.imagen" [alt]="tech.nombre || 'Tecnología'" class="tech-icono-imagen"/>
-                    </ng-container>
-                </div>
+                <app-tech-icons [tecnologias]="proyecto.tecnologias"></app-tech-icons>
 
                 <!-- Botones de enlaces (solo si existen) -->
                 <div class="enlaces">

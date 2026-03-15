@@ -26,13 +26,8 @@
                         </li>
                     </ul>
 
-                    <!-- Iconos de tecnologías (solo si hay alguna) -->
-                    <div class="tecnologias" *ngIf="trabajo.tecnologias.length > 0">
-                        <i *ngFor="let icono of trabajo.tecnologias"
-                            [class]="icono + ' colored'"
-                            class="tech-icono">
-                        </i>
-                    </div>
+                    <!-- Iconos de tecnologías -->
+                    <app-tech-icons [tecnologias]="trabajo.tecnologias"></app-tech-icons>
                 </div>
             </div>
         </div>

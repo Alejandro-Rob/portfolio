@@ -1,23 +1,25 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TECNOLOGIAS } from '../../../constants/tecnolgias.constants'
 import { TranslateModule } from '@ngx-translate/core';
+import { TechIconsComponent, Tecnologia } from '../../shared/tech-icons/tech-icons.component';
+import { TECNOLOGIAS } from '../../../constants/tecnolgias.constants';
 
 interface Trabajo {
     empresa: string;
     puestoKey: string;
     periodoKey: string;
     descripcionKeys: string[];
-    tecnologias: string[];
+    tecnologias: Tecnologia[];
 }
 
 @Component({
     selector: 'app-experiencia',
     standalone: true,
-    imports: [CommonModule, TranslateModule],
+    imports: [CommonModule, TranslateModule, TechIconsComponent],
     templateUrl: './experiencia.component.html',
     styleUrl: './experiencia.component.css'
 })
+
 export class ExperienciaComponent {
     trabajos: Trabajo[] = [
         {
@@ -28,7 +30,10 @@ export class ExperienciaComponent {
                 'experiencia.accenture.descripcion.0',
                 'experiencia.accenture.descripcion.1',
             ],
-            tecnologias: []
+            tecnologias: [
+                { imagen: TECNOLOGIAS.JASPER, nombre: "Jasper" },
+                { icono:  TECNOLOGIAS.ANGULAR, nombre: "Angular" }
+            ]
         },
         {
             empresa: 'MASISTE 2001 S.L.',
@@ -46,7 +51,17 @@ export class ExperienciaComponent {
                 'experiencia.masiste.descripcion.8',
                 'experiencia.masiste.descripcion.9',
             ],
-            tecnologias: []
+            tecnologias: [
+                { icono:  TECNOLOGIAS.HTML_CSS, nombre: "HTML y CSS" },
+                { icono:  TECNOLOGIAS.TYPESCRIPT, nombre: "TypeScript" },
+                { icono:  TECNOLOGIAS.ANGULAR, nombre: "Angular" },
+                { icono:  TECNOLOGIAS.BOOTSTRAP, nombre: "Bootstrap" },
+                { icono:  TECNOLOGIAS.JAVA, nombre: "Java" },
+                { icono:  TECNOLOGIAS.SPRING_BOOT, nombre: "Spring Boot" },
+                { icono:  TECNOLOGIAS.SQL_SERVER, nombre: "SQL Server" },
+                { imagen: TECNOLOGIAS.VB, nombre: "Visual Basic" },
+                { imagen: TECNOLOGIAS.JASPER, nombre: "Jasper" },
+            ]
         },
         {
             empresa: 'NEORIS',
@@ -59,7 +74,11 @@ export class ExperienciaComponent {
                 'experiencia.neoris.descripcion.3',
                 'experiencia.neoris.descripcion.4',
             ],
-            tecnologias: []
+            tecnologias: [
+                { icono: TECNOLOGIAS.HTML_CSS, nombre: "HTML y CSS" },
+                { icono: TECNOLOGIAS.JAVASCRIPT, nombre: "JavaScript" },
+                { icono: TECNOLOGIAS.GIT, nombre: "Git" },
+            ]
         }
     ];
 }

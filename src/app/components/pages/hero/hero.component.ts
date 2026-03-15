@@ -9,6 +9,7 @@ import { TranslateModule } from '@ngx-translate/core';
     templateUrl: './hero.component.html',
     styleUrl: './hero.component.css'
 })
+
 export class HeroComponent {
     scrollTo(id: string) {
         const elemento = document.getElementById(id);

@@ -25,5 +25,11 @@ export const TECNOLOGIAS = {
     INTELLIJ:      'devicon-intellij-plain',
     VISUAL_STUDIO: 'devicon-visualstudio-plain',
     GIT:           'devicon-git-plain',
-    BITBUCKET:     'devicon-bitbucket-plain'
+    BITBUCKET:     'devicon-bitbucket-plain',
+
+    // Imágenes
+    VB:            'images/vb.webp',
+    JASPER:        'images/jasper.webp',
+    PHOTON:        'images/photon.webp',
+    SOURCETREE:    'images/sourcetree.webp',
 } as const;

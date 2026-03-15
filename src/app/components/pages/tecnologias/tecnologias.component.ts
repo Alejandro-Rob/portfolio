@@ -2,12 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 import { TECNOLOGIAS } from '../../../constants/tecnolgias.constants';
-
-export interface Tecnologia {
-    nombre?: string;
-    icono?: string;
-    imagen?: string;
-}
+import { Tecnologia } from '../../shared/tech-icons/tech-icons.component';
 
 @Component({
     selector: 'app-tecnologias',
@@ -27,7 +22,7 @@ export class TecnologiasComponent {
         { nombre: 'PHP',          icono:  TECNOLOGIAS.PHP },
         { nombre: 'SQL',          icono:  TECNOLOGIAS.SQL },
         { nombre: 'SQL Server',   icono:  TECNOLOGIAS.SQL_SERVER },
-        { nombre: 'Visual Basic', imagen: 'images/vb.webp' },
+        { nombre: 'Visual Basic', imagen: TECNOLOGIAS.VB },
     ];
 
     frameworks: Tecnologia[] = [
@@ -44,10 +39,10 @@ export class TecnologiasComponent {
         { nombre: 'NetBeans',       icono:  TECNOLOGIAS.NETBEANS },
         { nombre: 'IntelliJ',       icono:  TECNOLOGIAS.INTELLIJ },
         { nombre: 'GIT-HUB',        icono:  TECNOLOGIAS.GIT },
-        { nombre: 'Bitbucket',      imagen: 'images/bitbucket.webp' },
-        { nombre: 'SourceTree',     imagen: 'images/sourcetree.webp' },
-        { nombre: 'Jasper Reports', imagen: 'images/jasper.webp' },
-        { nombre: 'Photon PUN',     imagen: 'images/photon.webp' },
+        { nombre: 'Bitbucket',      imagen: TECNOLOGIAS.BITBUCKET },
+        { nombre: 'SourceTree',     imagen: TECNOLOGIAS.SOURCETREE },
+        { nombre: 'Jasper Reports', imagen: TECNOLOGIAS.JASPER },
+        { nombre: 'Photon PUN',     imagen: TECNOLOGIAS.PHOTON },
     ];
 
     aprendiendo: Tecnologia[] = [
