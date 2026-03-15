@@ -2,11 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TECNOLOGIAS } from '../../../constants/tecnolgias.constants';
 import { TranslateModule } from '@ngx-translate/core';
-
-interface Tecnologia {
-    icono?: string;  // Clase de devicons
-    imagen?: string; // Ruta a imagen propia
-}
+import { Tecnologia } from '../tecnologias/tecnologias.component';
 
 interface Proyecto {
     nombre: string;

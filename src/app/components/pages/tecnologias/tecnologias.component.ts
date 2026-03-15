@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 import { TECNOLOGIAS } from '../../../constants/tecnolgias.constants';
 
-interface Tecnologia {
-    nombre: string;
+export interface Tecnologia {
+    nombre?: string;
     icono?: string;
     imagen?: string;
 }

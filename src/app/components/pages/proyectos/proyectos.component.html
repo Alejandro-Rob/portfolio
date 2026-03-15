@@ -20,7 +20,7 @@
                 <div class="tecnologias">
                     <ng-container *ngFor="let tech of proyecto.tecnologias">
                         <i *ngIf="tech.icono" [class]="tech.icono + ' colored'" class="tech-icono"></i>
-                        <img *ngIf="tech.imagen" [src]="tech.imagen" class="tech-icono-imagen"/>
+                        <img *ngIf="tech.imagen" [src]="tech.imagen" [alt]="tech.nombre || 'Tecnología'" class="tech-icono-imagen"/>
                     </ng-container>
                 </div>
 
