@@ -12,13 +12,22 @@
         <li><button (click)="scrollTo('proyectos')">{{ 'navbar.proyectos' | translate }}</button></li>
         <li><button (click)="scrollTo('contacto')">{{ 'navbar.contacto' | translate }}</button></li>
 
-        <!-- Botón de cambio de idioma -->
-        <li *ngFor="let idioma of idiomas">
-            <button class="btn-idioma"
-                [class.activo]="idiomaActual === idioma.codigo"
-                (click)="cambiarIdioma(idioma.codigo)">
-                {{ idioma.etiqueta }}
+        <!-- Selector de idioma desplegable -->
+        <li class="selector-idioma">
+            <button class="btn-idioma activo" (click)="toggleDesplegable()">
+                {{ etiquetaActual }} ▾
             </button>
+
+            <!-- Opciones desplegables -->
+            <ul class="desplegable" *ngIf="desplegableAbierto">
+                <li *ngFor="let idioma of idiomas">
+                    <button
+                        [class.activo]="idiomaActual === idioma.codigo"
+                        (click)="cambiarIdioma(idioma.codigo)">
+                        {{ idioma.etiqueta }}
+                    </button>
+                </li>
+            </ul>
         </li>
     </ul>
 </nav>

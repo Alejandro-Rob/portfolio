@@ -92,26 +92,57 @@
         "btnDemo": "Video Demo",
         "hoppr": {
             "nombre": "Hoppr",
-            "descripcion": "Aplicación para gestión de tareas del hogar como gastos, recetas de cocina o lista de la compra instalada en Raspberry PI conectada a Github"
+            "descripcion": "Aplicación para gestión de tareas del hogar como gastos, recetas de cocina o lista de la compra instalada en Raspberry PI conectada a Github."
         },
         "museo": {
             "nombre": "Museo VR",
-            "descripcion": "Simulación para VR de un museo del videojuego con información interactiva"
+            "descripcion": "Entorno VR interactivo ambientado en un museo del videojuego, donde el jugador puede explorar e interactuar con muestras de consolas y accesorios para obtener información."
         },
         "galeria": {
             "nombre": "Galería de tiro VR",
-            "descripcion": "Galería de tiro desarrollada en VR"
+            "descripcion": "Galería de tiro en realidad virtual con mecánicas de disparo, físicas de objetos, detección de impactos y entorno 3D inmersivo."
         },
         "plataformas": {
             "nombre": "Plataformas 2D",
-            "descripcion": "Primera escena de videojuego en 2D realizada en Unity"
+            "descripcion": "Videojuego de plataformas 2D desarrollado en Unity implementando sistemas de movimiento del jugador, detección de colisiones, animaciones con Animator y construcción de niveles con Tilemaps."
+        },
+        "car": {
+            "nombre": "Car Roguelike",
+            "descripcion": "Proyecto donde se busca aplicar técnicas de desarrollo como la generación procedural del escenario en función del nivel, progresión del jugador, persistencia de datos en forma de JSON y PlayerPrefs y Photon PUN para el entorno multijugador."
         }
     },
     "contacto": {
         "titulo": "Contacto",
         "telefono": "Teléfono",
         "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
         "subtitulo": "¿Tienes alguna propuesta o pregunta? ¡Contáctame!",
         "ubicacion": "Murcia, España"
+    },
+    "portfolioInfo": {
+        "titulo": "Sobre este portfolio",
+        "tecnologias": {
+            "titulo": "Tecnologías",
+            "angular": "Framework principal del frontend",
+            "translate": "Internacionalización en ES, EN, DE, JA y RU",
+            "devicons": "Iconografía de tecnologías",
+            "fontawesome": "Iconografía general",
+            "github": "Hosting y despliegue"
+        },
+        "optimizaciones": {
+            "titulo": "Optimizaciones",
+            "webp": "Imágenes en formato .webp optimizadas",
+            "lazy": "Carga diferida de CSS externos",
+            "preconnect": "Preconnect a CDNs externos",
+            "touch": "Eliminación del retraso de toque en móvil",
+            "seo": "Metadescripción para SEO"
+        },
+        "rendimiento": {
+            "titulo": "Rendimiento",
+            "escritorio": "Escritorio",
+            "movil": "Móvil",
+            "fuente": "Medido con Google PageSpeed Insights"
+        }
     }
 }

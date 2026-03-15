@@ -68,5 +68,16 @@ proyectos: Proyecto[] = [
         ],
         urlDemo: 'https://youtu.be/rMXSyDvdjcc'
     },
+    {
+        nombre: 'proyectos.car.nombre',
+        descripcion: 'proyectos.car.descripcion',
+        imagen: 'images/Car_Roguelike.webp',
+        tecnologias: [
+            { icono: TECNOLOGIAS.CSHARP },
+            { icono: TECNOLOGIAS.UNITY },
+            { imagen: 'images/photon.webp' }
+        ],
+        urlDemo: 'https://youtu.be/bBVB1otRysc'
+    },
 ];
 }

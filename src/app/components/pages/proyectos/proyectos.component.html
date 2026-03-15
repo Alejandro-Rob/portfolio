@@ -14,7 +14,7 @@
                     <img [src]="proyecto.imagen" [alt]="proyecto.nombre" />
                 </div>
 
-                <p class="proyecto-descripcion">{{ proyecto.descripcion | translate }}</p>
+                <p [innerHTML]="proyecto.descripcion | translate" class="proyecto-descripcion"></p>
 
                 <!-- Píldoras de tecnologías -->
                 <div class="tecnologias">

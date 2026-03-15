@@ -92,26 +92,57 @@
         "btnDemo": "Video Demo",
         "hoppr": {
             "nombre": "Hoppr",
-            "descripcion": "Haushaltsaufgaben-App für Ausgaben, Rezepte und Einkaufslisten, installiert auf einem Raspberry PI verbunden mit Github"
+            "descripcion": "Haushaltsaufgaben-App für Ausgaben, Rezepte und Einkaufslisten, installiert auf einem Raspberry PI verbunden mit Github."
         },
         "museo": {
             "nombre": "VR Museum",
-            "descripcion": "VR-Simulation eines Videospielmuseums mit interaktiven Informationen"
+            "descripcion": "Interaktive VR-Umgebung in einem Videospielmuseum, in der der Spieler Ausstellungen von Konsolen und Zubehör erkunden und mit ihnen interagieren kann, um Informationen zu erhalten."
         },
         "galeria": {
             "nombre": "VR Schießgalerie",
-            "descripcion": "In VR entwickelte Schießgalerie"
+            "descripcion": "Schießgalerie in virtueller Realität mit Schussmechaniken, Objektphysik, Aufprallerkennung und immersiver 3D-Umgebung."
         },
         "plataformas": {
             "nombre": "2D Plattformer",
-            "descripcion": "Erste 2D-Spielszene in Unity erstellt"
+            "descripcion": "2D-Plattformspiel entwickelt in Unity mit Implementierung von Spielerbewegungssystemen, Kollisionserkennung, Animationen mit Animator und Levelgestaltung mit Tilemaps."
+        },
+        "car": {
+            "nombre": "Car Roguelike",
+            "descripcion": "Projekt zur Anwendung von Entwicklungstechniken wie prozedurale Szenengenerierung basierend auf dem Level, Spielerprogression, Datenpersistenz mit JSON und PlayerPrefs sowie Photon PUN für die Multiplayer-Umgebung."
         }
     },
     "contacto": {
         "titulo": "Kontakt",
         "telefono": "Telefon",
         "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
         "subtitulo": "Haben Sie einen Vorschlag oder eine Frage? Kontaktieren Sie mich!",
         "ubicacion": "Murcia, Spanien"
+    },
+    "portfolioInfo": {
+        "titulo": "Über dieses Portfolio",
+        "tecnologias": {
+            "titulo": "Technologien",
+            "angular": "Haupt-Frontend-Framework",
+            "translate": "Internationalisierung in ES, EN, DE, JA und RU",
+            "devicons": "Technologie-Ikonografie",
+            "fontawesome": "Allgemeine Ikonografie",
+            "github": "Hosting und Bereitstellung"
+        },
+        "optimizaciones": {
+            "titulo": "Optimierungen",
+            "webp": "Bilder im optimierten .webp-Format",
+            "lazy": "Verzögertes Laden externer CSS",
+            "preconnect": "Preconnect zu externen CDNs",
+            "touch": "Beseitigung der Touch-Verzögerung auf Mobilgeräten",
+            "seo": "Meta-Beschreibung für SEO"
+        },
+        "rendimiento": {
+            "titulo": "Leistung",
+            "escritorio": "Desktop",
+            "movil": "Mobil",
+            "fuente": "Gemessen mit Google PageSpeed Insights"
+        }
     }
 }

@@ -10,6 +10,7 @@ import { EstudiosComponent } from './components/pages/estudios/estudios.componen
 import { MobilePreviewComponent } from './components/shared/mobile-preview/mobile-preview.component';
 import { TranslateService } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
+import { PortfolioInfoComponent } from './components/shared/portfolio-info/portfolio-info.component';
 
 @Component({
     selector: 'app-root',
@@ -24,7 +25,8 @@ import { CommonModule } from '@angular/common';
         EstudiosComponent,
         TecnologiasComponent,
         ContactoComponent,
-        MobilePreviewComponent
+        MobilePreviewComponent,
+        PortfolioInfoComponent
     ],
     templateUrl: './app.component.html',
     styleUrl: './app.component.css'

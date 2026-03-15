@@ -92,26 +92,56 @@
         "btnDemo": "Video Demo",
         "hoppr": {
             "nombre": "Hoppr",
-            "descripcion": "Home task management app for expenses, recipes and shopping lists, installed on a Raspberry PI connected to Github"
+            "descripcion": "Home task management app for expenses, recipes and shopping lists, installed on a Raspberry PI connected to Github."
         },
         "museo": {
             "nombre": "VR Museum",
-            "descripcion": "VR simulation of a video game museum with interactive information"
+            "descripcion": "Interactive VR environment set in a video game museum, where the player can explore and interact with displays of consoles and accessories to obtain information."
         },
         "galeria": {
             "nombre": "VR Shooting gallery",
-            "descripcion": "Shooting gallery developed in VR"
+            "descripcion": "Shooting gallery in virtual reality with shooting mechanics, object physics, impact detection and immersive 3D environment."
         },
         "plataformas": {
             "nombre": "2D Platform",
-            "descripcion": "First 2D video game scene made in Unity"
+            "descripcion": "2D platformer game developed in Unity implementing player movement systems, collision detection, animations with Animator and level building with Tilemaps."        },
+        "car": {
+            "nombre": "Car Roguelike",
+            "descripcion": "Project aimed at applying development techniques such as procedural scene generation based on level, player progression, data persistence using JSON and PlayerPrefs, and Photon PUN for the multiplayer environment."
         }
     },
     "contacto": {
         "titulo": "Contact",
         "telefono": "Phone",
         "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
         "subtitulo": "Have a proposal or question? Contact me!",
         "ubicacion": "Murcia, Spain"
+    },
+    "portfolioInfo": {
+        "titulo": "About this portfolio",
+        "tecnologias": {
+            "titulo": "Technologies",
+            "angular": "Main frontend framework",
+            "translate": "Internationalization in ES, EN, DE, JA and RU",
+            "devicons": "Technology iconography",
+            "fontawesome": "General iconography",
+            "github": "Hosting and deployment"
+        },
+        "optimizaciones": {
+            "titulo": "Optimizations",
+            "webp": "Images optimized in .webp format",
+            "lazy": "Deferred loading of external CSS",
+            "preconnect": "Preconnect to external CDNs",
+            "touch": "Elimination of touch delay on mobile",
+            "seo": "Meta description for SEO"
+        },
+        "rendimiento": {
+            "titulo": "Performance",
+            "escritorio": "Desktop",
+            "movil": "Mobile",
+            "fuente": "Measured with Google PageSpeed Insights"
+        }
     }
 }

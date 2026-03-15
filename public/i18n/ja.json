@@ -1,0 +1,149 @@
+{
+    "navbar": {
+        "inicio": "ホーム",
+        "sobreMi": "自己紹介",
+        "tecnologias": "技術",
+        "experiencia": "経験",
+        "estudios": "学歴",
+        "proyectos": "プロジェクト",
+        "contacto": "お問い合わせ"
+    },
+    "hero": {
+        "saludo": "こんにちは！私は",
+        "rol": "フルスタック開発者",
+        "descripcion": "AngularとSpring Bootを使ったフルスタックWeb開発と、ゲームおよびVRプロジェクトの経験があります。",
+        "btnCv": "履歴書をダウンロード",
+        "btnContacto": "お問い合わせ"
+    },
+    "sobreMi": {
+        "titulo": "自己紹介",
+        "p1": "私は<strong>Alejandro</strong>です。Angular（TS）とSpring Boot（Java）を使用したWeb開発の経験があります。Unity（C#）を使ったゲーム開発にも携わっており、ユーザー体験やインターフェース設計に独自の視点をもたらしています。",
+        "p2": "ゲームとVRは単なる趣味ではなく、Webプロフィールを補完する実際のプロジェクトであり、人々がテクノロジーとどのように関わるかについて、より広い視野を与えてくれます。"
+    },
+    "tecnologias": {
+        "titulo": "技術",
+        "domino": "経験済み技術",
+        "herramientas": "ツールと環境",
+        "aprendiendo": "学習中",
+        "frameworks": "フレームワーク"
+    },
+    "experiencia": {
+        "titulo": "経験",
+        "accenture": {
+            "puesto": "Webデベロッパー",
+            "periodo": "2025年3月 - 2025年9月",
+            "descripcion": [
+                "JasperServerにデプロイされたJasperを使用したPDF形式のドキュメント生成と設計。",
+                "Angular 16を使用したWebアプリケーションのフロントエンド開発。"
+            ]
+        },
+        "masiste": {
+            "puesto": "アプリケーション開発者",
+            "periodo": "2023年11月 - 2025年3月",
+            "descripcion": [
+                "Spring（REST API）バックエンドとAngularフロントエンドを使用したWebアプリケーション開発。",
+                "工場管理Webアプリケーション。",
+                "車両計量Webアプリケーション。",
+                "Javaを使用したデスクトップソフトウェア開発。",
+                "自動ドキュメント印刷アプリケーション。",
+                "データベース上のExcelを使用したデータ管理アプリケーション。",
+                "内部ディレクトリのファイル管理アプリケーション。",
+                ".NET（Visual Basic）を使用した計量ソフトウェア開発。",
+                "工場でのコンテナ計量デスクトップアプリケーション。",
+                "上記ソフトウェア用SQL Serverデータベースの設計、作成および管理。"
+            ]
+        },
+        "neoris": {
+            "puesto": "FCTインターンシップ",
+            "periodo": "2023年3月 - 2023年6月",
+            "descripcion": [
+                "HTML、CSS、JavaScript、TypeScriptのトレーニングコース。",
+                "Web開発技術（HTML、CSS、JavaScript）の使用。",
+                "JavaScript Lit Elementライブラリのトレーニング。",
+                "JasmineとKarmaを使用したテスト。",
+                "GitHubプラットフォームの使用。"
+            ]
+        }
+    },
+    "estudios": {
+        "titulo": "学歴",
+        "videojuegos": {
+            "titulo": "ゲームおよびバーチャルリアリティ開発専門課程",
+            "centro": "IES Ingeniero de la Cierva",
+            "periodo": "2025年9月 - 2026年6月",
+            "descripcion": "UnityとC#を使用したゲーム開発のトレーニング。メカニクスプログラミング、インタラクティブインターフェース設計、シーン管理を含む。"
+        },
+        "dam": {
+            "titulo": "クロスプラットフォームアプリケーション開発上級課程（未修了）",
+            "centro": "IES José Luis Martínez Palomo",
+            "periodo": "2023年9月 - 2023年11月",
+            "descripcion": "クロスプラットフォームアプリケーション開発のトレーニング。"
+        },
+        "daw": {
+            "titulo": "Web アプリケーション開発上級課程",
+            "centro": "IES Ribera de los Molinos",
+            "periodo": "2021年9月 - 2023年6月",
+            "descripcion": "フルスタックWeb開発、リレーショナルデータベース、アプリケーションデプロイのトレーニング。"
+        }
+    },
+    "proyectos": {
+        "titulo": "プロジェクト",
+        "btnGithub": "GitHub",
+        "btnDemo": "デモ動画",
+        "hoppr": {
+            "nombre": "Hoppr",
+            "descripcion": "Raspberry PIにインストールされGithubに接続された、費用、レシピ、買い物リストなどの家事管理アプリ。"
+        },
+        "museo": {
+            "nombre": "VRミュージアム",
+            "descripcion": "ビデオゲームミュージアムを舞台にしたインタラクティブなVR環境。プレイヤーはコンソールやアクセサリの展示を探索・操作して情報を得ることができる。"
+        },
+        "galeria": {
+            "nombre": "VRシューティングギャラリー",
+            "descripcion": "射撃メカニクス、オブジェクト物理、衝撃検知、没入型3D環境を備えたバーチャルリアリティのシューティングギャラリー。"
+        },
+        "plataformas": {
+            "nombre": "2Dプラットフォーマー",
+            "descripcion": "Unityで開発された2Dプラットフォームゲーム。プレイヤーの移動システム、衝突検知、Animatorによるアニメーション、Tilemapsによるレベル構築を実装。"
+        },
+        "car": {
+            "nombre": "Car Roguelike",
+            "descripcion": "レベルに基づくプロシージャルシーン生成、プレイヤー進行、JSONとPlayerPrefsによるデータ永続化、マルチプレイヤー環境のためのPhoton PUNなどの開発技術の適用を目指したプロジェクト。"
+        }
+    },
+    "contacto": {
+        "titulo": "お問い合わせ",
+        "subtitulo": "提案や質問がありますか？お気軽にどうぞ！",
+        "telefono": "電話",
+        "email": "メール",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "ubicacionLabel": "所在地",
+        "ubicacion": "ムルシア、スペイン"
+    },
+    "portfolioInfo": {
+        "titulo": "このポートフォリオについて",
+        "tecnologias": {
+            "titulo": "技術",
+            "angular": "メインフロントエンドフレームワーク",
+            "translate": "ES、EN、DE、JAおよびRUでの国際化",
+            "devicons": "技術アイコン",
+            "fontawesome": "一般アイコン",
+            "github": "ホスティングとデプロイ"
+        },
+        "optimizaciones": {
+            "titulo": "最適化",
+            "webp": ".webp形式で最適化された画像",
+            "lazy": "外部CSSの遅延読み込み",
+            "preconnect": "外部CDNへのPreconnect",
+            "touch": "モバイルでのタッチ遅延の排除",
+            "seo": "SEOのためのメタディスクリプション"
+        },
+        "rendimiento": {
+            "titulo": "パフォーマンス",
+            "escritorio": "デスクトップ",
+            "movil": "モバイル",
+            "fuente": "Google PageSpeed Insightsで計測"
+        }
+    }
+}

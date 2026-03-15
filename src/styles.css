@@ -4,7 +4,7 @@ main {
 }
 
 body {
-    font-family: 'Comfortaa', 'Montserrat', 'Calibri', Arial, sans-serif;
+    font-family: 'Comfortaa', 'Montserrat', 'Noto Sans', 'Noto Sans JP', 'Calibri', Arial, sans-serif;
     background: linear-gradient(180deg, 
         #0f1a4e 0%,      /* Azul muy oscuro arriba */
         #1a2668 20%,     /* Azul oscuro */
@@ -24,4 +24,9 @@ html, body {
 
 section + section {
     border-top: 2px solid rgba(168, 192, 255, 0.15);
+}
+
+/* Elimina el retraso de 300ms en toques en móvil */
+html {
+    touch-action: manipulation;
 }

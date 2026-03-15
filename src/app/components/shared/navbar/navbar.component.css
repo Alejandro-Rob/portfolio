@@ -93,3 +93,30 @@
     background-color: rgba(168, 192, 255, 0.35) !important;
     border-color: #a8c0ff !important;
 }
+
+/* Contenedor del selector */
+.selector-idioma {
+    position: relative;
+}
+
+/* Desplegable */
+.desplegable {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: linear-gradient(135deg, #2c3e8c, #1a2668);
+    border: 1px solid rgba(168, 192, 255, 0.2);
+    border-radius: 8px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    min-width: 100px;
+    z-index: 1001;
+    list-style: none;
+}
+
+.desplegable button {
+    width: 100%;
+    text-align: left;
+}

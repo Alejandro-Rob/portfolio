@@ -1,0 +1,49 @@
+<button class="btn-info" (click)="abrir()">
+    🛠️ {{ 'portfolioInfo.titulo' | translate }}
+</button>
+
+<div class="overlay" *ngIf="visible" (click)="cerrar()">
+    <div class="modal" (click)="$event.stopPropagation()">
+        <button class="btn-cerrar" (click)="cerrar()">✕</button>
+
+        <h2 class="titulo">{{ 'portfolioInfo.titulo' | translate }}</h2>
+
+        <div class="grupo">
+            <h3 class="subtitulo">🛠️ {{ 'portfolioInfo.tecnologias.titulo' | translate }}</h3>
+            <ul>
+                <li><strong>Angular 17+</strong> — {{ 'portfolioInfo.tecnologias.angular' | translate }}</li>
+                <li><strong>ngx-translate</strong> — {{ 'portfolioInfo.tecnologias.translate' | translate }}</li>
+                <li><strong>Devicons</strong> — {{ 'portfolioInfo.tecnologias.devicons' | translate }}</li>
+                <li><strong>Font Awesome</strong> — {{ 'portfolioInfo.tecnologias.fontawesome' | translate }}</li>
+                <li><strong>GitHub Pages</strong> — {{ 'portfolioInfo.tecnologias.github' | translate }}</li>
+            </ul>
+        </div>
+
+        <div class="grupo">
+            <h3 class="subtitulo">⚡ {{ 'portfolioInfo.optimizaciones.titulo' | translate }}</h3>
+            <ul>
+                <li>{{ 'portfolioInfo.optimizaciones.webp' | translate }}</li>
+                <li>{{ 'portfolioInfo.optimizaciones.lazy' | translate }}</li>
+                <li>{{ 'portfolioInfo.optimizaciones.preconnect' | translate }}</li>
+                <li>{{ 'portfolioInfo.optimizaciones.touch' | translate }}</li>
+                <li>{{ 'portfolioInfo.optimizaciones.seo' | translate }}</li>
+            </ul>
+        </div>
+
+        <div class="grupo">
+            <h3 class="subtitulo">📊 {{ 'portfolioInfo.rendimiento.titulo' | translate }}</h3>
+            <div class="puntuaciones">
+                <div class="puntuacion">
+                    <span class="numero">96</span>
+                    <span class="label">{{ 'portfolioInfo.rendimiento.escritorio' | translate }}</span>
+                </div>
+                <div class="puntuacion">
+                    <span class="numero">86</span>
+                    <span class="label">{{ 'portfolioInfo.rendimiento.movil' | translate }}</span>
+                </div>
+            </div>
+            <p class="fuente">{{ 'portfolioInfo.rendimiento.fuente' | translate }}</p>
+        </div>
+
+    </div>
+</div>
