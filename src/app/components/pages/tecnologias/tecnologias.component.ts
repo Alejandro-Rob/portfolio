@@ -39,7 +39,7 @@ export class TecnologiasComponent {
         { nombre: 'NetBeans',       icono:  TECNOLOGIAS.NETBEANS },
         { nombre: 'IntelliJ',       icono:  TECNOLOGIAS.INTELLIJ },
         { nombre: 'GIT-HUB',        icono:  TECNOLOGIAS.GIT },
-        { nombre: 'Bitbucket',      imagen: TECNOLOGIAS.BITBUCKET },
+        { nombre: 'Bitbucket',      icono:  TECNOLOGIAS.BITBUCKET },
         { nombre: 'SourceTree',     imagen: TECNOLOGIAS.SOURCETREE },
         { nombre: 'Jasper Reports', imagen: TECNOLOGIAS.JASPER },
         { nombre: 'Photon PUN',     imagen: TECNOLOGIAS.PHOTON },

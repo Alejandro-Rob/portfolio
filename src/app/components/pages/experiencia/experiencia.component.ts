@@ -31,10 +31,10 @@ export class ExperienciaComponent {
                 'experiencia.accenture.descripcion.1',
             ],
             tecnologias: [
-                { imagen: TECNOLOGIAS.JASPER, nombre: "Jasper" },
-                { icono:  TECNOLOGIAS.ANGULAR, nombre: "Angular" },
-                { imagen: TECNOLOGIAS.BITBUCKET, nombre: "Bitbucket" },
-                { icono:  TECNOLOGIAS.SOURCETREE, nombre: "SourceTree" }
+                { imagen: TECNOLOGIAS.JASPER,     nombre: "Jasper" },
+                { icono:  TECNOLOGIAS.ANGULAR,    nombre: "Angular" },
+                { icono:  TECNOLOGIAS.BITBUCKET,  nombre: "Bitbucket" },
+                { imagen: TECNOLOGIAS.SOURCETREE, nombre: "SourceTree" }
             ]
         },
         {
@@ -54,15 +54,15 @@ export class ExperienciaComponent {
                 'experiencia.masiste.descripcion.9',
             ],
             tecnologias: [
-                { icono:  TECNOLOGIAS.HTML_CSS, nombre: "HTML y CSS" },
-                { icono:  TECNOLOGIAS.TYPESCRIPT, nombre: "TypeScript" },
                 { icono:  TECNOLOGIAS.ANGULAR, nombre: "Angular" },
-                { icono:  TECNOLOGIAS.BOOTSTRAP, nombre: "Bootstrap" },
-                { icono:  TECNOLOGIAS.JAVA, nombre: "Java" },
-                { icono:  TECNOLOGIAS.SPRING_BOOT, nombre: "Spring Boot" },
-                { icono:  TECNOLOGIAS.SQL_SERVER, nombre: "SQL Server" },
-                { imagen: TECNOLOGIAS.VB, nombre: "Visual Basic" },
+                { icono:  TECNOLOGIAS.TYPESCRIPT, nombre: "TypeScript" },
                 { imagen: TECNOLOGIAS.JASPER, nombre: "Jasper" },
+                { icono:  TECNOLOGIAS.SPRING_BOOT, nombre: "Spring Boot" },
+                { icono:  TECNOLOGIAS.JAVA, nombre: "Java" },
+                { imagen: TECNOLOGIAS.VB, nombre: "Visual Basic" },
+                { icono:  TECNOLOGIAS.SQL_SERVER, nombre: "SQL Server" },
+                { icono:  TECNOLOGIAS.HTML_CSS, nombre: "HTML y CSS" },
+                { icono:  TECNOLOGIAS.BOOTSTRAP, nombre: "Bootstrap" },
             ]
         },
         {
