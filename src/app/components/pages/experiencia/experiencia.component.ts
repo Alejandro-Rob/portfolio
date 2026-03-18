@@ -32,7 +32,9 @@ export class ExperienciaComponent {
             ],
             tecnologias: [
                 { imagen: TECNOLOGIAS.JASPER, nombre: "Jasper" },
-                { icono:  TECNOLOGIAS.ANGULAR, nombre: "Angular" }
+                { icono:  TECNOLOGIAS.ANGULAR, nombre: "Angular" },
+                { imagen: TECNOLOGIAS.BITBUCKET, nombre: "Bitbucket" },
+                { icono:  TECNOLOGIAS.SOURCETREE, nombre: "SourceTree" }
             ]
         },
         {

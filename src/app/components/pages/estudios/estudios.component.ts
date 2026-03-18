@@ -29,7 +29,8 @@ export class EstudiosComponent {
             descripcion: 'estudios.videojuegos.descripcion',
             tecnologias: [
                 { icono: TECNOLOGIAS.UNITY,  nombre: 'Unity' },
-                { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' }
+                { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
+                { icono: TECNOLOGIAS.PHOTON, nombre: 'Photon' }
             ]
         },
         {
