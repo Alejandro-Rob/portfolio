@@ -109,6 +109,14 @@
         "car": {
             "nombre": "Car Roguelike",
             "descripcion": "Projekt zur Anwendung von Entwicklungstechniken wie prozedurale Szenengenerierung basierend auf dem Level, Spielerprogression, Datenpersistenz mit JSON und PlayerPrefs sowie Photon PUN für die Multiplayer-Umgebung."
+        },
+        "coche": {
+            "nombre": "AR Auto",
+            "descripcion": "Augmented-Reality-Spiel entwickelt mit Unity und AR Foundation. Erkennt horizontale Oberflächen mit ARCore und projiziert ein virtuelles Spielfeld. Der Spieler steuert ein Fahrzeug durch Ausrichten der Kamera, um Pakete an zufälligen Positionen auf der erkannten Oberfläche zu sammeln."
+        },
+        "components": {
+            "nombre": "AR Components",
+            "descripcion": "Augmented-Reality-Anwendung entwickelt mit Unity und ARCore zum Erlernen von Computerkomponenten. Erkennt gedruckte Marker durch die Kamera und überlagert interaktive 3D-Modelle mit Touch-Gesten zum Drehen, Skalieren und Abrufen von Informationen zu jedem Bauteil."
         }
     },
     "contacto": {
@@ -118,7 +126,8 @@
         "linkedin": "LinkedIn",
         "github": "GitHub",
         "subtitulo": "Haben Sie einen Vorschlag oder eine Frage? Kontaktieren Sie mich!",
-        "ubicacion": "Murcia, Spanien"
+        "ubicacion": "Spanien",
+        "zona": "Lorquí, Region Murcia"
     },
     "portfolioInfo": {
         "titulo": "Über dieses Portfolio",
