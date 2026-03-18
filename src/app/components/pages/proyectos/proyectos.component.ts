@@ -86,7 +86,7 @@ export class ProyectosComponent {
                 { icono: TECNOLOGIAS.UNITY,  nombre: 'Unity' },
                 { icono: TECNOLOGIAS.AR,     nombre: 'Realidad Aumentada' },
             ],
-            urlDemo: 'https://youtu.be/1BIbHKY-lkk'
+            urlDemo: 'https://youtu.be/IOGgE7yt8ks'
         },
         {
             nombre: 'proyectos.coche.nombre',
