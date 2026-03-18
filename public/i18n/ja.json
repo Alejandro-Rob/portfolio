@@ -109,6 +109,14 @@
         "car": {
             "nombre": "Car Roguelike",
             "descripcion": "レベルに基づくプロシージャルシーン生成、プレイヤー進行、JSONとPlayerPrefsによるデータ永続化、マルチプレイヤー環境のためのPhoton PUNなどの開発技術の適用を目指したプロジェクト。"
+        },
+        "coche": {
+            "nombre": "ARカーゲーム",
+            "descripcion": "UnityとAR Foundationで開発された拡張現実ゲーム。ARCoreで水平面を検知し仮想フィールドを投影。プレイヤーはカメラを向けて車を操作し、検知した面上のランダムな位置に現れるパッケージを集める。"
+        },
+        "components": {
+            "nombre": "ARコンポーネンツ",
+            "descripcion": "UnityとARCoreで開発されたコンピュータ部品学習用ARアプリ。カメラで印刷マーカーを認識し、タッチジェスチャーで回転・拡大・情報表示が可能な3Dモデルを重ね合わせる。"
         }
     },
     "contacto": {
@@ -119,7 +127,8 @@
         "linkedin": "LinkedIn",
         "github": "GitHub",
         "ubicacionLabel": "所在地",
-        "ubicacion": "ムルシア、スペイン"
+        "ubicacion": "スペイン",
+        "zona": "Lorquí、ムルシア州"
     },
     "portfolioInfo": {
         "titulo": "このポートフォリオについて",

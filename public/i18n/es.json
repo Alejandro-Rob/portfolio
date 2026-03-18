@@ -109,6 +109,14 @@
         "car": {
             "nombre": "Car Roguelike",
             "descripcion": "Proyecto donde se busca aplicar técnicas de desarrollo como la generación procedural del escenario en función del nivel, progresión del jugador, persistencia de datos en forma de JSON y PlayerPrefs y Photon PUN para el entorno multijugador."
+        },
+        "coche": {
+            "nombre": "AR - Coche",
+            "descripcion": "Juego de realidad aumentada desarrollado con Unity y AR Foundation. La aplicación detecta superficies horizontales del mundo real mediante ARCore y proyecta sobre ellas un campo de juego virtual. El jugador controla un vehículo apuntando la cámara del dispositivo, con el objetivo de recolectar paquetes que aparecen en posiciones aleatorias sobre la superficie detectada."
+        },
+        "components": {
+            "nombre": "AR - Components Info",
+            "descripcion": "Aplicación de Realidad Aumentada desarrollada con Unity y ARCore para el aprendizaje de componentes de un ordenador. Detecta marcadores impresos mediante la cámara y superpone modelos 3D interactivos con gestos táctiles para rotar, escalar y consultar información de cada componente."
         }
     },
     "contacto": {
@@ -118,7 +126,8 @@
         "linkedin": "LinkedIn",
         "github": "GitHub",
         "subtitulo": "¿Tienes alguna propuesta o pregunta? ¡Contáctame!",
-        "ubicacion": "Murcia, España"
+        "ubicacion": "España",
+        "zona": "Lorquí, Región de Murcia"
     },
     "portfolioInfo": {
         "titulo": "Sobre este portfolio",

@@ -41,6 +41,7 @@ export class ProyectosComponent {
             tecnologias: [
                 { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
                 { icono: TECNOLOGIAS.UNITY,  nombre: 'Unity' },
+                { icono: TECNOLOGIAS.VR,     nombre: 'Realidad Virtual' },
             ],
             urlDemo: 'https://youtu.be/7qWF5Bz_WKU'
         },
@@ -51,6 +52,7 @@ export class ProyectosComponent {
             tecnologias: [
                 { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
                 { icono: TECNOLOGIAS.UNITY,  nombre: 'Unity' },
+                { icono: TECNOLOGIAS.VR,     nombre: 'Realidad Virtual' },
             ],
             urlDemo: 'https://youtu.be/haPMoUKKt9U'
         },
@@ -74,6 +76,28 @@ export class ProyectosComponent {
                 { imagen: 'images/photon.webp', nombre: 'Photon PUN' }
             ],
             urlDemo: 'https://youtu.be/bBVB1otRysc'
+        },
+        {
+            nombre: 'proyectos.components.nombre',
+            descripcion: 'proyectos.components.descripcion',
+            imagen: 'images/AR_Components_info.webp',
+            tecnologias: [
+                { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
+                { icono: TECNOLOGIAS.UNITY,  nombre: 'Unity' },
+                { icono: TECNOLOGIAS.AR,     nombre: 'Realidad Aumentada' },
+            ],
+            urlDemo: 'https://youtu.be/1BIbHKY-lkk'
+        },
+        {
+            nombre: 'proyectos.coche.nombre',
+            descripcion: 'proyectos.coche.descripcion',
+            imagen: 'images/AR_Coche.webp',
+            tecnologias: [
+                { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
+                { icono: TECNOLOGIAS.UNITY,  nombre: 'Unity' },
+                { icono: TECNOLOGIAS.AR,     nombre: 'Realidad Aumentada' },
+            ],
+            urlDemo: 'https://youtu.be/b6I9m0TNytQ'
         },
     ];
 }

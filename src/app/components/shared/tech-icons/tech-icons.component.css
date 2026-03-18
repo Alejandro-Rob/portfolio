@@ -50,3 +50,12 @@
 .icono-wrapper:hover::after {
     opacity: 1;
 }
+
+/* Color para iconos de Font Awesome */
+.fa-vr-cardboard {
+    color: #a8c0ff;
+}
+
+.fa-mobile-screen {
+    color: #a8c0ff;
+}

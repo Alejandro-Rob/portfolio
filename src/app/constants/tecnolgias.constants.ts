@@ -26,6 +26,8 @@ export const TECNOLOGIAS = {
     VISUAL_STUDIO: 'devicon-visualstudio-plain',
     GIT:           'devicon-git-plain',
     BITBUCKET:     'devicon-bitbucket-plain',
+    VR:            'fa-solid fa-vr-cardboard',
+    AR:            'fa-solid fa-mobile-screen',
 
     // Imágenes
     VB:            'images/vb.webp',

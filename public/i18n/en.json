@@ -104,10 +104,19 @@
         },
         "plataformas": {
             "nombre": "2D Platform",
-            "descripcion": "2D platformer game developed in Unity implementing player movement systems, collision detection, animations with Animator and level building with Tilemaps."        },
+            "descripcion": "2D platformer game developed in Unity implementing player movement systems, collision detection, animations with Animator and level building with Tilemaps."
+        },
         "car": {
             "nombre": "Car Roguelike",
             "descripcion": "Project aimed at applying development techniques such as procedural scene generation based on level, player progression, data persistence using JSON and PlayerPrefs, and Photon PUN for the multiplayer environment."
+        },
+        "coche": {
+            "nombre": "AR Car",
+            "descripcion": "Augmented reality game developed with Unity and AR Foundation. Detects horizontal surfaces using ARCore and projects a virtual playing field. The player controls a vehicle by pointing the camera to collect packages appearing at random positions on the detected surface."
+        },
+        "components": {
+            "nombre": "AR Components",
+            "descripcion": "Augmented Reality application developed with Unity and ARCore for learning computer components. Detects printed markers through the camera and overlays interactive 3D models with touch gestures to rotate, scale and consult information about each component."
         }
     },
     "contacto": {
@@ -117,7 +126,8 @@
         "linkedin": "LinkedIn",
         "github": "GitHub",
         "subtitulo": "Have a proposal or question? Contact me!",
-        "ubicacion": "Murcia, Spain"
+        "ubicacion": "Spain",
+        "zona": "Lorquí, Region of Murcia"
     },
     "portfolioInfo": {
         "titulo": "About this portfolio",
