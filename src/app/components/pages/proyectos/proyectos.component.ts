@@ -117,10 +117,10 @@ export class ProyectosComponent {
             descripcion: 'proyectos.blender.descripcion',
             imagen: 'images/Playa.webp',
             galeria: [
-                { url: 'images/Playa.webp',  descripcion: 'Escena de playa' },
-                { url: 'images/Altar.webp',  descripcion: 'Escena de altar' },
-                { url: 'images/Tunnel.webp', descripcion: 'Escena de túnel' },
-                { url: 'images/Casa.webp',   descripcion: 'Escena de casa' },
+                { url: 'images/Playa.webp',  descripcion: 'Playa con tesoro Modelado de una playa con cofre, palmeras y monedas usando instancias vinculadas. Se aplicaron texturas de madera con Normal Map, materiales metálicos y efecto Bloom para resaltar los herrajes y el oro del botín.' },
+                { url: 'images/Altar.webp',  descripcion: 'Escena de un altar con terreno de relieve real generado con los modificadores Subdivision Surface y Displace. El altar usa Normal Map para simular detalle superficial sin añadir polígonos, combinando geometría real y simulada en la misma escena.' },
+                { url: 'images/Tunnel.webp', descripcion: 'Túnel con antorchas Modelado de un túnel en arco con el modificador Array para generar profundidad. Se aplicaron texturas PBR con Bump Map y materiales emisivos con efecto Bloom para simular la iluminación de antorchas.' },
+                { url: 'images/Casa.webp',   descripcion: 'Casa con materiales Aplicación de materiales base a todos los elementos de una casa mediante Material Properties. Se usó Bump Mapping con texturas de imagen en el suelo y el tronco del árbol para simular relieve sin modificar la geometría.' },
             ],
             tecnologias: [
                 { icono: TECNOLOGIAS.BLENDER, nombre: 'Blender' },
