@@ -88,8 +88,14 @@
     },
     "proyectos": {
         "titulo": "Проекты",
+        "btnDescripcion": "Описание",
         "btnGithub": "GitHub",
         "btnDemo": "Видео демо",
+        "btnGaleria": "Показать изображения",
+        "blender": {
+            "nombre": "Blender.",
+            "descripcion": "Проекты, созданные в Blender."
+        },
         "hoppr": {
             "nombre": "Hoppr",
             "descripcion": "Приложение для управления домашними задачами: расходы, рецепты и список покупок, установленное на Raspberry PI с подключением к Github."
