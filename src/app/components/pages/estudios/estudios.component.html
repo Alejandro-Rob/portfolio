@@ -1,6 +1,9 @@
 <div class="estudios">
     <div class="contenido">
-        <h2 class="titulo">{{ 'estudios.titulo' | translate }}</h2>
+        <div class="titulo-contenedor">
+            <img src="images/Yo/Yo_Estudios.webp" alt="" class="titulo-icono" />
+            <h2 class="titulo">{{ 'estudios.titulo' | translate }}</h2>
+        </div>
         
         <div class="timeline">
             <div class="estudio" *ngFor="let estudio of estudios">

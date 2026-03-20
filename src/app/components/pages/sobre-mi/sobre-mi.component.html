@@ -1,10 +1,13 @@
 <div class="sobre-mi">
     <div class="contenido">
-        <h2 class="titulo">{{ 'sobreMi.titulo' | translate }}</h2>
+        <div class="titulo-contenedor">
+            <img src="images/Yo/Yo_Sobre_mí.webp" alt="" class="titulo-icono" />
+            <h2 class="titulo">{{ 'sobreMi.titulo' | translate }}</h2>
+        </div>
         <div class="tarjeta">
-            <div class="foto-contenedor">
+            <!-- <div class="foto-contenedor">
                 <img src="images/Yo.webp" alt="Foto de perfil" class="foto" />
-            </div>
+            </div> -->
             <div class="texto">
                 <p [innerHTML]="'sobreMi.p1' | translate"></p>
                 <p [innerHTML]="'sobreMi.p2' | translate"></p>
