@@ -38,6 +38,7 @@ export class TecnologiasComponent {
         { nombre: 'GIT-HUB',        icono:  TECNOLOGIAS.GIT },
         { nombre: 'Photon PUN',     imagen: TECNOLOGIAS.PHOTON },
         { nombre: 'Blender',        icono:  TECNOLOGIAS.BLENDER },
+        { nombre: 'Gimp',           icono:  TECNOLOGIAS.GIMP },
         { nombre: 'Visual Studio',  icono:  TECNOLOGIAS.VISUAL_STUDIO },
         { nombre: 'VS Code',        icono:  TECNOLOGIAS.VSCODE },
         { nombre: 'NetBeans',       icono:  TECNOLOGIAS.NETBEANS },
