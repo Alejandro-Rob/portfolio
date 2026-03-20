@@ -28,9 +28,10 @@ export class EstudiosComponent {
             periodo: 'estudios.videojuegos.periodo',
             descripcion: 'estudios.videojuegos.descripcion',
             tecnologias: [
-                { icono:  TECNOLOGIAS.UNITY,  nombre: 'Unity' },
-                { icono:  TECNOLOGIAS.CSHARP, nombre: 'C#' },
-                { imagen: TECNOLOGIAS.PHOTON, nombre: 'Photon' }
+                { icono:  TECNOLOGIAS.UNITY,   nombre: 'Unity' },
+                { icono:  TECNOLOGIAS.CSHARP,  nombre: 'C#' },
+                { imagen: TECNOLOGIAS.PHOTON,  nombre: 'Photon' },
+                { icono:  TECNOLOGIAS.BLENDER, nombre: 'Blender'}
             ]
         },
         {

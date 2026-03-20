@@ -8,10 +8,15 @@ interface Proyecto {
     nombre: string;
     descripcion: string;
     imagen?: string;
-    galeria?: string[];
+    galeria?: ImagenGaleria[];
     tecnologias: Tecnologia[];
     urlGithub?: string;
     urlDemo?: string;
+}
+
+interface ImagenGaleria {
+    url: string;
+    descripcion?: string;
 }
 
 @Component({
@@ -25,6 +30,8 @@ interface Proyecto {
 export class ProyectosComponent {
     descripcionesExpandidas: boolean[] = [];
     galeriasExpandidas: boolean[] = [];
+    imagenAbierta: string | null = null;
+    imagenDescripcion: string | null = null;
 
     proyectos: Proyecto[] = [
         {
@@ -43,9 +50,10 @@ export class ProyectosComponent {
             descripcion: 'proyectos.museo.descripcion',
             imagen: 'images/VR_Museum.webp',
             tecnologias: [
-                { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
-                { icono: TECNOLOGIAS.UNITY,  nombre: 'Unity' },
-                { icono: TECNOLOGIAS.VR,     nombre: 'Realidad Virtual' },
+                { icono: TECNOLOGIAS.CSHARP,   nombre: 'C#' },
+                { icono: TECNOLOGIAS.UNITY,    nombre: 'Unity' },
+                { icono: TECNOLOGIAS.BLENDER,  nombre: 'Blender' },
+                { icono: TECNOLOGIAS.VR,       nombre: 'Realidad Virtual' },
             ],
             urlDemo: 'https://youtu.be/7qWF5Bz_WKU'
         },
@@ -108,9 +116,10 @@ export class ProyectosComponent {
             descripcion: 'proyectos.blender.descripcion',
             imagen: 'images/Playa.webp',
             galeria: [
-                'images/Playa.webp',
-                'images/Tunnel.webp',
-                'images/Casa.webp'
+                { url: 'images/Playa.webp',  descripcion: 'Escena de playa' },
+                { url: 'images/Altar.webp',  descripcion: 'Escena de altar' },
+                { url: 'images/Tunnel.webp', descripcion: 'Escena de túnel' },
+                { url: 'images/Casa.webp',   descripcion: 'Escena de casa' },
             ],
             tecnologias: [
                 { icono: TECNOLOGIAS.BLENDER, nombre: 'Blender' }
@@ -121,7 +130,7 @@ export class ProyectosComponent {
     ngOnInit() {
         // Inicializa todas las descripciones y galerías como contraídas
         this.descripcionesExpandidas = this.proyectos.map(() => false);
-        this.galeriasExpandidas = this.proyectos.map(() => false); // 👈
+        this.galeriasExpandidas = this.proyectos.map(() => false);
     }
 
     toggleGaleria(index: number) {
@@ -132,14 +141,13 @@ export class ProyectosComponent {
         this.descripcionesExpandidas[index] = !this.descripcionesExpandidas[index];
     }
 
-    // Controla la imagen abierta en el modal
-    imagenAbierta: string | null = null;
-
-    abrirImagen(url: string) {
+    abrirImagen(url: string, descripcion?: string) {
         this.imagenAbierta = url;
+        this.imagenDescripcion = descripcion || null;
     }
 
     cerrarImagen() {
         this.imagenAbierta = null;
+        this.imagenDescripcion = null;
     }
 }

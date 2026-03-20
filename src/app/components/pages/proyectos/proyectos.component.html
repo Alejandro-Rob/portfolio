@@ -22,14 +22,7 @@
 
                 <!-- Contenido expandible -->
                 <div class="descripcion-contenido" *ngIf="descripcionesExpandidas[i]">
-
-                    <!-- Descripción -->
                     <p class="proyecto-descripcion">{{ proyecto.descripcion | translate }}</p>
-
-                    <!-- Galería de imágenes (solo si existe) -->
-                    <div class="galeria" *ngIf="proyecto.galeria && proyecto.galeria.length > 0">
-                        <img *ngFor="let img of proyecto.galeria" [src]="img" class="galeria-imagen" (click)="abrirImagen(img)" alt="Imagen del proyecto"/>
-                    </div>
                 </div>
                 
                 <!-- Iconos de tecnologías -->
@@ -38,9 +31,7 @@
                 <!-- Botones de enlaces -->
                 <div class="enlaces">
                     <a *ngIf="proyecto.urlGithub" [href]="proyecto.urlGithub" target="_blank" class="btn btn-github">{{ 'proyectos.btnGithub' | translate }}</a>
-                    <!-- <a [href]="proyecto.urlDemo || '#'" [class.disabled]="!proyecto.urlDemo" [attr.target]="proyecto.urlDemo ? '_blank' : null" class="btn btn-demo">
-                        {{ 'proyectos.btnDemo' | translate }}
-                    </a> -->
+
                     <!-- Si tiene galería muestra botón expandible, si no muestra demo normal -->
                     <ng-container *ngIf="proyecto.galeria && proyecto.galeria.length > 0; else demoNormal">
                         <button class="btn btn-demo btn-galeria" (click)="toggleGaleria(i)">
@@ -57,13 +48,14 @@
 
                 <!-- Galería expandible -->
                 <div class="galeria" *ngIf="proyecto.galeria && galeriasExpandidas[i]">
-                    <img *ngFor="let img of proyecto.galeria" [src]="img" class="galeria-imagen" (click)="abrirImagen(img)" alt="Imagen del proyecto"/>
+                    <img *ngFor="let img of proyecto.galeria" [src]="img.url" class="galeria-imagen" (click)="abrirImagen(img.url, img.descripcion)" alt="{{ proyecto.galeria ? '' : 'Imagen del proyecto'}}"/>
                 </div>
             </div>
 
             <!-- Modal para ver imagen en grande -->
             <div class="imagen-overlay" *ngIf="imagenAbierta" (click)="cerrarImagen()">
-                <img [src]="imagenAbierta" alt="Imagen ampliada" class="imagen-grande"/>
+                <img [src]="imagenAbierta" alt="Imagen ampliada" class="imagen-grande" />
+                <p class="imagen-descripcion" *ngIf="imagenDescripcion">{{ imagenDescripcion }}</p>
             </div>
         </div>
     </div>

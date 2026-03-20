@@ -14,15 +14,15 @@ import { Tecnologia } from '../../shared/tech-icons/tech-icons.component';
 
 export class TecnologiasComponent {
     domino: Tecnologia[] = [
-        { nombre: 'HTML/CSS',     icono:  TECNOLOGIAS.HTML_CSS },
-        { nombre: 'JavaScript',   icono:  TECNOLOGIAS.JAVASCRIPT },
+        { nombre: 'C#',           icono:  TECNOLOGIAS.CSHARP },
         { nombre: 'TypeScript',   icono:  TECNOLOGIAS.TYPESCRIPT },
         { nombre: 'Java',         icono:  TECNOLOGIAS.JAVA },
-        { nombre: 'C#',           icono:  TECNOLOGIAS.CSHARP },
         { nombre: 'PHP',          icono:  TECNOLOGIAS.PHP },
+        { nombre: 'Visual Basic', imagen: TECNOLOGIAS.VB },
         { nombre: 'SQL',          icono:  TECNOLOGIAS.SQL },
         { nombre: 'SQL Server',   icono:  TECNOLOGIAS.SQL_SERVER },
-        { nombre: 'Visual Basic', imagen: TECNOLOGIAS.VB },
+        { nombre: 'HTML/CSS',     icono:  TECNOLOGIAS.HTML_CSS },
+        { nombre: 'JavaScript',   icono:  TECNOLOGIAS.JAVASCRIPT },
     ];
 
     frameworks: Tecnologia[] = [
@@ -34,16 +34,16 @@ export class TecnologiasComponent {
 
     herramientas: Tecnologia[] = [
         { nombre: 'Unity',          icono:  TECNOLOGIAS.UNITY },
+        { nombre: 'Jasper Reports', imagen: TECNOLOGIAS.JASPER },
+        { nombre: 'GIT-HUB',        icono:  TECNOLOGIAS.GIT },
+        { nombre: 'Photon PUN',     imagen: TECNOLOGIAS.PHOTON },
+        { nombre: 'Blender',        icono:  TECNOLOGIAS.BLENDER },
         { nombre: 'Visual Studio',  icono:  TECNOLOGIAS.VISUAL_STUDIO },
         { nombre: 'VS Code',        icono:  TECNOLOGIAS.VSCODE },
         { nombre: 'NetBeans',       icono:  TECNOLOGIAS.NETBEANS },
         { nombre: 'IntelliJ',       icono:  TECNOLOGIAS.INTELLIJ },
-        { nombre: 'GIT-HUB',        icono:  TECNOLOGIAS.GIT },
         { nombre: 'Bitbucket',      icono:  TECNOLOGIAS.BITBUCKET },
         { nombre: 'SourceTree',     imagen: TECNOLOGIAS.SOURCETREE },
-        { nombre: 'Jasper Reports', imagen: TECNOLOGIAS.JASPER },
-        { nombre: 'Photon PUN',     imagen: TECNOLOGIAS.PHOTON },
-        { nombre: 'Blender',        icono: TECNOLOGIAS.BLENDER },
     ];
 
     aprendiendo: Tecnologia[] = [
