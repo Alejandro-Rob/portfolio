@@ -88,8 +88,14 @@
     },
     "proyectos": {
         "titulo": "プロジェクト",
+        "btnDescripcion": "説明",
         "btnGithub": "GitHub",
         "btnDemo": "デモ動画",
+        "btnGaleria": "画像を表示",
+        "blender": {
+            "nombre": "Blender.",
+            "descripcion": "Blenderで作成したプロジェクト。"
+        },
         "hoppr": {
             "nombre": "Hoppr",
             "descripcion": "Raspberry PIにインストールされGithubに接続された、費用、レシピ、買い物リストなどの家事管理アプリ。"

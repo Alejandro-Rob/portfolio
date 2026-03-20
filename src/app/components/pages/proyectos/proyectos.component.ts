@@ -8,6 +8,7 @@ interface Proyecto {
     nombre: string;
     descripcion: string;
     imagen?: string;
+    galeria?: string[];
     tecnologias: Tecnologia[];
     urlGithub?: string;
     urlDemo?: string;
@@ -22,6 +23,9 @@ interface Proyecto {
 })
 
 export class ProyectosComponent {
+    descripcionesExpandidas: boolean[] = [];
+    galeriasExpandidas: boolean[] = [];
+
     proyectos: Proyecto[] = [
         {
             nombre: 'proyectos.hoppr.nombre',
@@ -99,5 +103,43 @@ export class ProyectosComponent {
             ],
             urlDemo: 'https://youtu.be/b6I9m0TNytQ'
         },
+        {
+        nombre: 'proyectos.blender.nombre',
+            descripcion: 'proyectos.blender.descripcion',
+            imagen: 'images/Playa.webp',
+            galeria: [
+                'images/Playa.webp',
+                'images/Tunnel.webp',
+                'images/Casa.webp'
+            ],
+            tecnologias: [
+                { icono: TECNOLOGIAS.BLENDER, nombre: 'Blender' }
+            ],
+        }
     ];
+    
+    ngOnInit() {
+        // Inicializa todas las descripciones y galerías como contraídas
+        this.descripcionesExpandidas = this.proyectos.map(() => false);
+        this.galeriasExpandidas = this.proyectos.map(() => false); // 👈
+    }
+
+    toggleGaleria(index: number) {
+        this.galeriasExpandidas[index] = !this.galeriasExpandidas[index];
+    }
+
+    toggleDescripcion(index: number) {
+        this.descripcionesExpandidas[index] = !this.descripcionesExpandidas[index];
+    }
+
+    // Controla la imagen abierta en el modal
+    imagenAbierta: string | null = null;
+
+    abrirImagen(url: string) {
+        this.imagenAbierta = url;
+    }
+
+    cerrarImagen() {
+        this.imagenAbierta = null;
+    }
 }

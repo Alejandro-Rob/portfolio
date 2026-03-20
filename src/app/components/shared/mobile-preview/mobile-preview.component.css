@@ -107,7 +107,7 @@
 }
 
 /* Ocultar el botón en pantallas móviles */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .btn-mobile {
         display: none;
     }

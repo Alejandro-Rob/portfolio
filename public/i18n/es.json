@@ -89,7 +89,13 @@
     "proyectos": {
         "titulo": "Proyectos",
         "btnGithub": "GitHub",
+        "btnDescripcion": "Descripción",
         "btnDemo": "Video Demo",
+        "btnGaleria": "Muestra imágenes",
+        "blender": {
+            "nombre": "Blender.",
+            "descripcion": "Proyectos hechos en Blender."
+        },
         "hoppr": {
             "nombre": "Hoppr",
             "descripcion": "Aplicación para gestión de tareas del hogar como gastos, recetas de cocina o lista de la compra instalada en Raspberry PI conectada a Github."

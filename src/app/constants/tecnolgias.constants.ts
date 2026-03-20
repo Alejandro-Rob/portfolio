@@ -28,6 +28,7 @@ export const TECNOLOGIAS = {
     BITBUCKET:     'devicon-bitbucket-plain',
     VR:            'fa-solid fa-vr-cardboard',
     AR:            'fa-solid fa-mobile-screen',
+    BLENDER:       'devicon-blender-original',
 
     // Imágenes
     VB:            'images/vb.webp',

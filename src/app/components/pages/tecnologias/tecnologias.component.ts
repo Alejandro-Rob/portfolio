@@ -43,6 +43,7 @@ export class TecnologiasComponent {
         { nombre: 'SourceTree',     imagen: TECNOLOGIAS.SOURCETREE },
         { nombre: 'Jasper Reports', imagen: TECNOLOGIAS.JASPER },
         { nombre: 'Photon PUN',     imagen: TECNOLOGIAS.PHOTON },
+        { nombre: 'Blender',        icono: TECNOLOGIAS.BLENDER },
     ];
 
     aprendiendo: Tecnologia[] = [
