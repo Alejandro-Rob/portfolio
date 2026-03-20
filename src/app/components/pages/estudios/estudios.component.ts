@@ -31,7 +31,8 @@ export class EstudiosComponent {
                 { icono:  TECNOLOGIAS.UNITY,   nombre: 'Unity' },
                 { icono:  TECNOLOGIAS.CSHARP,  nombre: 'C#' },
                 { imagen: TECNOLOGIAS.PHOTON,  nombre: 'Photon' },
-                { icono:  TECNOLOGIAS.BLENDER, nombre: 'Blender'}
+                { icono:  TECNOLOGIAS.BLENDER, nombre: 'Blender'},
+                { icono:  TECNOLOGIAS.GIMP,    nombre: 'Gimp'}
             ]
         },
         {

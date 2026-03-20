@@ -50,8 +50,8 @@ export class ProyectosComponent {
             descripcion: 'proyectos.museo.descripcion',
             imagen: 'images/VR_Museum.webp',
             tecnologias: [
-                { icono: TECNOLOGIAS.CSHARP,   nombre: 'C#' },
                 { icono: TECNOLOGIAS.UNITY,    nombre: 'Unity' },
+                { icono: TECNOLOGIAS.CSHARP,   nombre: 'C#' },
                 { icono: TECNOLOGIAS.BLENDER,  nombre: 'Blender' },
                 { icono: TECNOLOGIAS.VR,       nombre: 'Realidad Virtual' },
             ],
@@ -62,8 +62,8 @@ export class ProyectosComponent {
             descripcion: 'proyectos.galeria.descripcion',
             imagen: 'images/VR_Gallery.webp',
             tecnologias: [
-                { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
                 { icono: TECNOLOGIAS.UNITY,  nombre: 'Unity' },
+                { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
                 { icono: TECNOLOGIAS.VR,     nombre: 'Realidad Virtual' },
             ],
             urlDemo: 'https://youtu.be/haPMoUKKt9U'
@@ -73,8 +73,8 @@ export class ProyectosComponent {
             descripcion: 'proyectos.plataformas.descripcion',
             imagen: 'images/Platform2D.webp',
             tecnologias: [
-                { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
                 { icono: TECNOLOGIAS.UNITY,  nombre: 'Unity' },
+                { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
             ],
             urlDemo: 'https://youtu.be/rMXSyDvdjcc'
         },
@@ -83,9 +83,10 @@ export class ProyectosComponent {
             descripcion: 'proyectos.car.descripcion',
             imagen: 'images/Car_Roguelike.webp',
             tecnologias: [
-                { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
-                { icono: TECNOLOGIAS.UNITY,  nombre: 'Unity' },
-                { imagen: 'images/photon.webp', nombre: 'Photon PUN' }
+                { icono: TECNOLOGIAS.UNITY,     nombre: 'Unity' },
+                { icono: TECNOLOGIAS.CSHARP,    nombre: 'C#' },
+                { imagen: 'images/photon.webp', nombre: 'Photon PUN' },
+                { icono: TECNOLOGIAS.GIMP,      nombre: 'Gimp' },
             ],
             urlDemo: 'https://youtu.be/bBVB1otRysc'
         },
@@ -94,8 +95,8 @@ export class ProyectosComponent {
             descripcion: 'proyectos.components.descripcion',
             imagen: 'images/AR_Components_info.webp',
             tecnologias: [
-                { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
                 { icono: TECNOLOGIAS.UNITY,  nombre: 'Unity' },
+                { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
                 { icono: TECNOLOGIAS.AR,     nombre: 'Realidad Aumentada' },
             ],
             urlDemo: 'https://youtu.be/IOGgE7yt8ks'
@@ -105,8 +106,8 @@ export class ProyectosComponent {
             descripcion: 'proyectos.coche.descripcion',
             imagen: 'images/AR_Coche.webp',
             tecnologias: [
-                { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
                 { icono: TECNOLOGIAS.UNITY,  nombre: 'Unity' },
+                { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
                 { icono: TECNOLOGIAS.AR,     nombre: 'Realidad Aumentada' },
             ],
             urlDemo: 'https://youtu.be/b6I9m0TNytQ'
@@ -122,7 +123,8 @@ export class ProyectosComponent {
                 { url: 'images/Casa.webp',   descripcion: 'Escena de casa' },
             ],
             tecnologias: [
-                { icono: TECNOLOGIAS.BLENDER, nombre: 'Blender' }
+                { icono: TECNOLOGIAS.BLENDER, nombre: 'Blender' },
+                { icono: TECNOLOGIAS.GIMP,    nombre: 'Gimp' }
             ],
         }
     ];

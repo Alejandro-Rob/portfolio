@@ -39,6 +39,7 @@
                             <span>{{ galeriasExpandidas[i] ? '▲' : '▼' }}</span>
                         </button>
                     </ng-container>
+                    
                     <ng-template #demoNormal>
                         <a [href]="proyecto.urlDemo || '#'" [class.disabled]="!proyecto.urlDemo" [attr.target]="proyecto.urlDemo ? '_blank' : null" class="btn btn-demo">
                             {{ 'proyectos.btnDemo' | translate }}

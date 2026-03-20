@@ -29,6 +29,7 @@ export const TECNOLOGIAS = {
     VR:            'fa-solid fa-vr-cardboard',
     AR:            'fa-solid fa-mobile-screen',
     BLENDER:       'devicon-blender-original',
+    GIMP:          'devicon-gimp-plain',
 
     // Imágenes
     VB:            'images/vb.webp',
