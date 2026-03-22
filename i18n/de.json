@@ -104,6 +104,10 @@
             "nombre": "VR Museum",
             "descripcion": "Interaktive VR-Umgebung in einem Videospielmuseum, in der der Spieler Ausstellungen von Konsolen und Zubehör erkunden und mit ihnen interagieren kann, um Informationen zu erhalten."
         },
+        "pokeguessr": {
+            "nombre": "PokeGuessr",
+            "descripcion": "Online-Multiplayer-Spiel mit Pokémon-Thema, entwickelt in Unity, C# und Photon PUN2. Zeigt Kanto-Kartenstandorte, die Spieler auf einer Minikarte lokalisieren müssen. Enthält Rundensynchronisierung über RPCs, Echtzeit-Ranking und vollständigen Lobby- und Spielablauf."
+        },
         "galeria": {
             "nombre": "VR Schießgalerie",
             "descripcion": "Schießgalerie in virtueller Realität mit Schussmechaniken, Objektphysik, Aufprallerkennung und immersiver 3D-Umgebung."

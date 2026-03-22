@@ -108,6 +108,10 @@
             "nombre": "Galería de tiro VR",
             "descripcion": "Galería de tiro en realidad virtual con mecánicas de disparo, físicas de objetos, detección de impactos y entorno 3D inmersivo."
         },
+        "pokeguessr": {
+            "nombre": "PokeGuessr",
+            "descripcion": "Juego multijugador online temática Pokémon desarrollado en Unity, C# y Photon PUN2. Muestra ubicaciones del mapa de Kanto que los jugadores deben localizar en un minimapa. Incluye sincronización de rondas mediante RPCs, ranking en tiempo real y flujo completo de lobby y partida."
+        },
         "plataformas": {
             "nombre": "Plataformas 2D",
             "descripcion": "Videojuego de plataformas 2D desarrollado en Unity implementando sistemas de movimiento del jugador, detección de colisiones, animaciones con Animator y construcción de niveles con Tilemaps."

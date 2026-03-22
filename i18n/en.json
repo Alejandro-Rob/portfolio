@@ -108,6 +108,10 @@
             "nombre": "VR Shooting gallery",
             "descripcion": "Shooting gallery in virtual reality with shooting mechanics, object physics, impact detection and immersive 3D environment."
         },
+        "pokeguessr": {
+            "nombre": "PokeGuessr",
+            "descripcion": "Online multiplayer game with a Pokémon theme developed in Unity, C# and Photon PUN2. Shows Kanto map locations that players must identify on a minimap. Includes round synchronization via RPCs, real-time ranking and a complete lobby and match flow."
+        },
         "plataformas": {
             "nombre": "2D Platform",
             "descripcion": "2D platformer game developed in Unity implementing player movement systems, collision detection, animations with Animator and level building with Tilemaps."
