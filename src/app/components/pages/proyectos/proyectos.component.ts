@@ -69,14 +69,25 @@ export class ProyectosComponent {
             urlDemo: 'https://youtu.be/haPMoUKKt9U'
         },
         {
+            nombre: 'proyectos.pokeguessr.nombre',
+            descripcion: 'proyectos.pokeguessr.descripcion',
+            imagen: 'images/Pokeguessr.webp',
+            tecnologias: [
+                { icono: TECNOLOGIAS.UNITY,   nombre: 'Unity' },
+                { icono: TECNOLOGIAS.CSHARP,  nombre: 'C#' },
+                { imagen: TECNOLOGIAS.PHOTON, nombre: 'Photon' },
+            ],
+            urlDemo: 'https://youtu.be/_8exQ2Kg5Ts'
+        },
+        {
             nombre: 'proyectos.plataformas.nombre',
             descripcion: 'proyectos.plataformas.descripcion',
-            imagen: 'images/Platform2D.webp',
+            imagen: 'images/Demo.webp',
             tecnologias: [
                 { icono: TECNOLOGIAS.UNITY,  nombre: 'Unity' },
                 { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
             ],
-            urlDemo: 'https://youtu.be/rMXSyDvdjcc'
+            urlDemo: 'https://youtu.be/EZqgpUOrjTo'
         },
         {
             nombre: 'proyectos.car.nombre',

@@ -51,7 +51,7 @@
                 </div>
 
                 <!-- Galería expandible -->
-                <div class="galeria" *ngIf="proyecto.galeria && galeriasExpandidas[i]">
+                <div class="galeria" [class.visible]="galeriasExpandidas[i]">
                     <img *ngFor="let img of proyecto.galeria" [src]="img.url" class="galeria-imagen" loading="eager" (click)="abrirImagen(img.url, img.descripcion)" alt="{{ proyecto.galeria ? '' : 'Imagen del proyecto'}}"/>
                 </div>
             </div>
