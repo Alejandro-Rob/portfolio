@@ -63,6 +63,13 @@
                 "Testen mit Jasmine und Karma.",
                 "Verwendung der GitHub-Plattform."
             ]
+        },
+        "hero": {
+            "puesto": "Maschinenführer",
+            "periodo": "August 2006 - Januar 2021",
+            "descripcion": [
+                "Ausführung verschiedener Aufgaben in einem industriellen Umfeld, koordiniert mit dem Linienteam zur Erfüllung täglicher Produktionsziele."
+            ]
         }
     },
     "estudios": {
@@ -98,7 +105,7 @@
         },
         "hoppr": {
             "nombre": "Hoppr",
-            "descripcion": "Haushaltsaufgaben-App für Ausgaben, Rezepte und Einkaufslisten, installiert auf einem Raspberry PI verbunden mit Github."
+            "descripcion": "Haushaltsaufgaben-App für Ausgaben, Rezepte und Einkaufslisten, installiert auf einem Raspberry PI verbunden mit Github. Die App ermöglicht auch die Fernverbindung über Ngrok für temporäre Nutzung. Derzeit in Entwicklung, ein Teil der Funktionalität wird gezeigt."
         },
         "museo": {
             "nombre": "VR Museum",

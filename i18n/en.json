@@ -30,7 +30,7 @@
     "experiencia": {
         "titulo": "Experience",
         "accenture": {
-            "periodo": "2025 March - 2025 September",
+            "periodo": "March 2025 - September 2025",
             "puesto": "Web Developer",
             "descripcion": [
                 "Design and creation of PDF documents generated with Jasper deployed on JasperServer.",
@@ -39,7 +39,7 @@
         },
         "masiste": {
             "puesto": "Application Developer",
-            "periodo": "2023 November - 2025 March",
+            "periodo": "November 2023 - March 2025",
             "descripcion": [
                 "Web application development with Spring backend (REST API) and Angular frontend.",
                 "Plant management web application.",
@@ -55,13 +55,20 @@
         },
         "neoris": {
             "puesto": "FCT Internship",
-            "periodo": "2023 March - 2023 June",
+            "periodo": "March 2023 - June 2023",
             "descripcion": [
                 "Training courses in HTML, CSS, JavaScript, TypeScript.",
                 "Use of web development technologies (HTML, CSS, JavaScript).",
                 "Training in JavaScript Lit Element library.",
                 "Testing with Jasmine and Karma.",
                 "Use of the GitHub platform."
+            ]
+        },
+        "hero": {
+            "puesto": "Machinery Operator",
+            "periodo": "August 2006 - January 2021",
+            "descripcion": [
+                "Performance of various tasks in an industrial environment coordinated with the line team to meet daily production objectives."
             ]
         }
     },
@@ -70,19 +77,19 @@
         "videojuegos": {
             "titulo": "Specialization Course in Video Game and Virtual Reality Development",
             "centro": "IES Ingeniero de la Cierva",
-            "periodo" : "2025 September - 2026 June",
+            "periodo" : "September 2025 - June 2026",
             "descripcion": "Training in video game development with Unity and C#, covering mechanics programming, interactive interface design and scene management."
         },
         "dam": {
             "titulo": "Higher Degree in Cross-Platform Application Development (Not completed)",
             "centro": "IES José Luis Martínez Palomo",
-            "periodo": "2023 September - 2023 November",
+            "periodo": "September 2023 - November 2023",
             "descripcion": "Training in cross-platform application development."
         },
         "daw": {
             "titulo": "Higher Degree in Web Application Development",
             "centro": "IES Ribera de los Molinos",
-            "periodo" : "2021 September - 2023 June",
+            "periodo" : "September 2021 - June 2023",
             "descripcion": "Training in full stack web development, relational databases and application deployment."
         }
     },
@@ -98,7 +105,7 @@
         },
         "hoppr": {
             "nombre": "Hoppr",
-            "descripcion": "Home task management app for expenses, recipes and shopping lists, installed on a Raspberry PI connected to Github."
+            "descripcion": "Home task management application for expenses, recipes and shopping lists, installed on a Raspberry PI connected to Github. The app also allows remote connection via Ngrok for temporary use. Currently in development, showing part of its functionality."
         },
         "museo": {
             "nombre": "VR Museum",

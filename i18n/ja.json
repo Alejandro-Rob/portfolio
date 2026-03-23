@@ -63,6 +63,13 @@
                 "JasmineとKarmaを使用したテスト。",
                 "GitHubプラットフォームの使用。"
             ]
+        },
+        "hero": {
+            "puesto": "機械オペレーター",
+            "periodo": "2006年8月 - 2021年1月",
+            "descripcion": [
+                "日々の生産目標を達成するためにラインチームと連携した工業環境でのさまざまな業務の遂行。"
+            ]
         }
     },
     "estudios": {
@@ -98,7 +105,7 @@
         },
         "hoppr": {
             "nombre": "Hoppr",
-            "descripcion": "Raspberry PIにインストールされGithubに接続された、費用、レシピ、買い物リストなどの家事管理アプリ。"
+            "descripcion": "Raspberry PIにインストールされGithubに接続された、費用、レシピ、買い物リストの家事管理アプリ。NgrokによるリモートAクセスも可能。現在開発中で、機能の一部を公開中。"
         },
         "museo": {
             "nombre": "VRミュージアム",
