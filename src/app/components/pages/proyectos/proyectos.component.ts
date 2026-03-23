@@ -37,18 +37,29 @@ export class ProyectosComponent {
         {
             nombre: 'proyectos.hoppr.nombre',
             descripcion: 'proyectos.hoppr.descripcion',
-            imagen: 'images/Hoppr.webp',
+            imagen: 'images/Proyectos/Hoppr.webp',
             tecnologias: [
                 { icono: TECNOLOGIAS.ANGULAR,     nombre: 'Angular' },
                 { icono: TECNOLOGIAS.TYPESCRIPT,  nombre: 'TypeScript' },
                 { icono: TECNOLOGIAS.GIT,         nombre: 'GitHub' }
             ],
-            urlDemo: ''
+            urlDemo: 'https://youtu.be/A7FoMZhybhE'
+        },
+        {
+            nombre: 'proyectos.pokeguessr.nombre',
+            descripcion: 'proyectos.pokeguessr.descripcion',
+            imagen: 'images/Proyectos/Pokeguessr.webp',
+            tecnologias: [
+                { icono: TECNOLOGIAS.UNITY,   nombre: 'Unity' },
+                { icono: TECNOLOGIAS.CSHARP,  nombre: 'C#' },
+                { imagen: TECNOLOGIAS.PHOTON, nombre: 'Photon' },
+            ],
+            urlDemo: 'https://youtu.be/_8exQ2Kg5Ts'
         },
         {
             nombre: 'proyectos.museo.nombre',
             descripcion: 'proyectos.museo.descripcion',
-            imagen: 'images/VR_Museum.webp',
+            imagen: 'images/Proyectos/VR_Museum.webp',
             tecnologias: [
                 { icono: TECNOLOGIAS.UNITY,    nombre: 'Unity' },
                 { icono: TECNOLOGIAS.CSHARP,   nombre: 'C#' },
@@ -60,7 +71,7 @@ export class ProyectosComponent {
         {
             nombre: 'proyectos.galeria.nombre',
             descripcion: 'proyectos.galeria.descripcion',
-            imagen: 'images/VR_Gallery.webp',
+            imagen: 'images/Proyectos/VR_Gallery.webp',
             tecnologias: [
                 { icono: TECNOLOGIAS.UNITY,  nombre: 'Unity' },
                 { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
@@ -69,20 +80,9 @@ export class ProyectosComponent {
             urlDemo: 'https://youtu.be/haPMoUKKt9U'
         },
         {
-            nombre: 'proyectos.pokeguessr.nombre',
-            descripcion: 'proyectos.pokeguessr.descripcion',
-            imagen: 'images/Pokeguessr.webp',
-            tecnologias: [
-                { icono: TECNOLOGIAS.UNITY,   nombre: 'Unity' },
-                { icono: TECNOLOGIAS.CSHARP,  nombre: 'C#' },
-                { imagen: TECNOLOGIAS.PHOTON, nombre: 'Photon' },
-            ],
-            urlDemo: 'https://youtu.be/_8exQ2Kg5Ts'
-        },
-        {
             nombre: 'proyectos.plataformas.nombre',
             descripcion: 'proyectos.plataformas.descripcion',
-            imagen: 'images/Demo.webp',
+            imagen: 'images/Proyectos/Demo.webp',
             tecnologias: [
                 { icono: TECNOLOGIAS.UNITY,  nombre: 'Unity' },
                 { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
@@ -92,19 +92,19 @@ export class ProyectosComponent {
         {
             nombre: 'proyectos.car.nombre',
             descripcion: 'proyectos.car.descripcion',
-            imagen: 'images/Car_Roguelike.webp',
+            imagen: 'images/Proyectos/Car_Roguelike.webp',
             tecnologias: [
-                { icono: TECNOLOGIAS.UNITY,     nombre: 'Unity' },
-                { icono: TECNOLOGIAS.CSHARP,    nombre: 'C#' },
-                { imagen: 'images/photon.webp', nombre: 'Photon PUN' },
-                { icono: TECNOLOGIAS.GIMP,      nombre: 'Gimp' },
+                { icono:  TECNOLOGIAS.UNITY,  nombre: 'Unity' },
+                { icono:  TECNOLOGIAS.CSHARP, nombre: 'C#' },
+                { imagen: TECNOLOGIAS.PHOTON, nombre: 'Photon PUN' },
+                { icono:  TECNOLOGIAS.GIMP,   nombre: 'Gimp' },
             ],
             urlDemo: 'https://youtu.be/bBVB1otRysc'
         },
         {
             nombre: 'proyectos.components.nombre',
             descripcion: 'proyectos.components.descripcion',
-            imagen: 'images/AR_Components_info.webp',
+            imagen: 'images/Proyectos/AR_Components_info.webp',
             tecnologias: [
                 { icono: TECNOLOGIAS.UNITY,  nombre: 'Unity' },
                 { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
@@ -115,7 +115,7 @@ export class ProyectosComponent {
         {
             nombre: 'proyectos.coche.nombre',
             descripcion: 'proyectos.coche.descripcion',
-            imagen: 'images/AR_Coche.webp',
+            imagen: 'images/Proyectos/AR_Coche.webp',
             tecnologias: [
                 { icono: TECNOLOGIAS.UNITY,  nombre: 'Unity' },
                 { icono: TECNOLOGIAS.CSHARP, nombre: 'C#' },
@@ -126,12 +126,12 @@ export class ProyectosComponent {
         {
         nombre: 'proyectos.blender.nombre',
             descripcion: 'proyectos.blender.descripcion',
-            imagen: 'images/Playa.webp',
+            imagen: 'images/Proyectos/Playa.webp',
             galeria: [
-                { url: 'images/Playa.webp',  descripcion: 'Playa con tesoro Modelado de una playa con cofre, palmeras y monedas usando instancias vinculadas. Se aplicaron texturas de madera con Normal Map, materiales metálicos y efecto Bloom para resaltar los herrajes y el oro del botín.' },
-                { url: 'images/Altar.webp',  descripcion: 'Escena de un altar con terreno de relieve real generado con los modificadores Subdivision Surface y Displace. El altar usa Normal Map para simular detalle superficial sin añadir polígonos, combinando geometría real y simulada en la misma escena.' },
-                { url: 'images/Tunnel.webp', descripcion: 'Túnel con antorchas Modelado de un túnel en arco con el modificador Array para generar profundidad. Se aplicaron texturas PBR con Bump Map y materiales emisivos con efecto Bloom para simular la iluminación de antorchas.' },
-                { url: 'images/Casa.webp',   descripcion: 'Casa con materiales Aplicación de materiales base a todos los elementos de una casa mediante Material Properties. Se usó Bump Mapping con texturas de imagen en el suelo y el tronco del árbol para simular relieve sin modificar la geometría.' },
+                { url: 'images/Proyectos/Playa.webp',  descripcion: 'Playa con tesoro. Modelado de una playa con cofre, palmeras y monedas usando instancias vinculadas. Se aplicaron texturas de madera con Normal Map, materiales metálicos y efecto Bloom para resaltar los herrajes y el oro del botín.' },
+                { url: 'images/Proyectos/Altar.webp',  descripcion: 'Escena de un altar con terreno de relieve real generado con los modificadores Subdivision Surface y Displace. El altar usa Normal Map para simular detalle superficial sin añadir polígonos, combinando geometría real y simulada en la misma escena.' },
+                { url: 'images/Proyectos/Tunnel.webp', descripcion: 'Túnel con antorchas. Modelado de un túnel en arco con el modificador Array para generar profundidad. Se aplicaron texturas PBR con Bump Map y materiales emisivos con efecto Bloom para simular la iluminación de antorchas.' },
+                { url: 'images/Proyectos/Casa.webp',   descripcion: 'Casa con materiales. Aplicación de materiales base a todos los elementos de una casa mediante Material Properties. Se usó Bump Mapping con texturas de imagen en el suelo y el tronco del árbol para simular relieve sin modificar la geometría.' },
             ],
             tecnologias: [
                 { icono: TECNOLOGIAS.BLENDER, nombre: 'Blender' },

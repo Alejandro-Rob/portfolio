@@ -63,6 +63,13 @@
                 "Testing con Jasmine y Karma.",
                 "Uso de la plataforma de GitHub."
             ]
+        },
+        "hero": {
+            "puesto": "Operario de maquinaria",
+            "periodo": "Agosto 2006 - Enero 2021",
+            "descripcion": [
+                "Desempeño de tareas varias en entorno industrial coordinado con el equipo de línea para cumplir objetivos de producción diarios."
+            ]
         }
     },
     "estudios": {
@@ -98,7 +105,7 @@
         },
         "hoppr": {
             "nombre": "Hoppr",
-            "descripcion": "Aplicación para gestión de tareas del hogar como gastos, recetas de cocina o lista de la compra instalada en Raspberry PI conectada a Github."
+            "descripcion": "Aplicación para gestión de tareas del hogar como gastos, recetas de cocina o lista de la compra instalada en Raspberry PI conectada a Github. La app también permite la conexión remota mediante Ngrok para uso temporal. Actualmente está en desarrollo y se muestra una parte de su funcionalidad."
         },
         "museo": {
             "nombre": "Museo VR",

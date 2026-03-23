@@ -44,9 +44,11 @@
 }
 
 .proyecto-nombre {
-    font-size: 1.15rem;
+    font-size: 1.30rem;
     font-weight: bold;
     color: white;
+    text-align: center;
+    margin: 10px 0px;
 }
 
 .proyecto-descripcion {

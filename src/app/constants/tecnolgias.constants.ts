@@ -32,8 +32,8 @@ export const TECNOLOGIAS = {
     GIMP:          'devicon-gimp-plain',
 
     // Imágenes
-    VB:            'images/vb.webp',
-    JASPER:        'images/jasper.webp',
-    PHOTON:        'images/photon.webp',
-    SOURCETREE:    'images/sourcetree.webp',
+    VB:            'images/Techs/vb.webp',
+    JASPER:        'images/Techs/jasper.webp',
+    PHOTON:        'images/Techs/photon.webp',
+    SOURCETREE:    'images/Techs/sourcetree.webp',
 } as const;

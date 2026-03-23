@@ -10,6 +10,7 @@ interface Trabajo {
     periodoKey: string;
     descripcionKeys: string[];
     tecnologias: Tecnologia[];
+    secundario?: boolean;
 }
 
 @Component({
@@ -35,7 +36,8 @@ export class ExperienciaComponent {
                 { icono:  TECNOLOGIAS.ANGULAR,    nombre: "Angular" },
                 { icono:  TECNOLOGIAS.BITBUCKET,  nombre: "Bitbucket" },
                 { imagen: TECNOLOGIAS.SOURCETREE, nombre: "SourceTree" }
-            ]
+            ],
+            secundario: false
         },
         {
             empresa: 'MASISTE 2001 S.L.',
@@ -63,7 +65,8 @@ export class ExperienciaComponent {
                 { icono:  TECNOLOGIAS.SQL_SERVER, nombre: "SQL Server" },
                 { icono:  TECNOLOGIAS.HTML_CSS, nombre: "HTML y CSS" },
                 { icono:  TECNOLOGIAS.BOOTSTRAP, nombre: "Bootstrap" },
-            ]
+            ],
+            secundario: false
         },
         {
             empresa: 'NEORIS',
@@ -80,7 +83,18 @@ export class ExperienciaComponent {
                 { icono: TECNOLOGIAS.HTML_CSS, nombre: "HTML y CSS" },
                 { icono: TECNOLOGIAS.JAVASCRIPT, nombre: "JavaScript" },
                 { icono: TECNOLOGIAS.GIT, nombre: "Git" },
-            ]
+            ],
+            secundario: false
+        },
+        {
+            empresa: 'HERO España S.A.',
+            puestoKey: 'experiencia.hero.puesto',
+            periodoKey: 'experiencia.hero.periodo',
+            descripcionKeys: [
+                'experiencia.hero.descripcion.0'
+            ],
+            tecnologias: [],
+            secundario: true
         }
     ];
 }

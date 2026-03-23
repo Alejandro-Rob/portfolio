@@ -101,3 +101,28 @@
 .tech-icono {
     font-size: 1.75rem;
 }
+
+.tarjeta.secundaria {
+    background-color: rgba(255, 255, 255, 0.02);
+    border-color: rgba(168, 192, 255, 0.05);
+    opacity: 0.30;
+    transition: opacity 0.3s;
+}
+
+.tarjeta.secundaria:hover {
+    opacity: 1;
+}
+
+.tarjeta.secundaria .puesto {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.tarjeta.secundaria .empresa {
+    font-size: 0.85rem;
+}
+
+.tarjeta.secundaria .descripcion {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.85rem;
+}
