@@ -1,3 +1,5 @@
+import { Tecnologia } from "../models/tecnologias.interface";
+
 // Mapa de tecnologías: nombre legible → clase de devicons
 export const TECNOLOGIAS = {
     // Lenguajes
@@ -37,3 +39,41 @@ export const TECNOLOGIAS = {
     PHOTON:        'images/Techs/photon.webp',
     SOURCETREE:    'images/Techs/sourcetree.webp',
 } as const;
+
+// export const TECNOLOGIAS = [
+//     HTML_CSS:      { "source": 'devicon-html5-plain'              , "nombre": "HTML" },
+//     CSS:           { "source": 'devicon-css-plain'                , "nombre": "CSS" },
+//     JAVASCRIPT:    { "source": 'devicon-javascript-plain'         , "nombre": "JavaScript" },
+//     TYPESCRIPT:    { "source": 'devicon-typescript-plain'         , "nombre": "TypeScript" },
+//     JAVA:          { "source": 'devicon-java-plain'               , "nombre": "Java" },
+//     CSHARP:        { "source": 'devicon-csharp-plain'             , "nombre": "C Sharp" },
+//     PHP:           { "source": 'devicon-php-plain'                , "nombre": "PHP" },
+//     SQL:           { "source": 'devicon-mysql-plain'              , "nombre": "MySQL" },
+//     SQL_SERVER:    { "source": 'devicon-microsoftsqlserver-plain' , "nombre": "SQL Server" },
+//     PYTHON:        { "source": 'devicon-python-plain'             , "nombre": "Python" },
+
+//     ANGULAR:       { "source": 'devicon-angular-plain'            , "nombre": "Angular" },
+//     SPRING_BOOT:   { "source": 'devicon-spring-plain'             , "nombre": "Spring Boot" },
+//     LARAVEL:       { "source": 'devicon-laravel-plain'            , "nombre": "Laravel" },
+//     BOOTSTRAP:     { "source": 'devicon-bootstrap-plain'          , "nombre": "Bootstrap" },
+
+//     UNITY:         { "source": 'devicon-unity-plain'              , "nombre": "Unity" },
+//     GODOT:         { "source": 'devicon-godot-plain'              , "nombre": "Godot" },
+//     VSCODE:        { "source": 'devicon-vscode-plain'             , "nombre": "Visual Studio Code" },
+//     NETBEANS:      { "source": 'devicon-netbeans-plain'           , "nombre": "Netbeans" },
+//     INTELLIJ:      { "source": 'devicon-intellij-plain'           , "nombre": "IntelliJ" },
+//     VISUAL_STUDIO: { "source": 'devicon-visualstudio-plain'       , "nombre": "Visual Studio" },
+//     GIT:           { "source": 'devicon-git-plain'                , "nombre": "Git" },
+//     BITBUCKET:     { "source": 'devicon-bitbucket-plain'          , "nombre": "Bitbucket" },
+//     VR:            { "source": 'fa-solid fa-vr-cardboard'         , "nombre": "Realidad virtual" },
+//     AR:            { "source": 'fa-solid fa-mobile-screen'        , "nombre": "Realidad aumentada" },
+//     BLENDER:       { "source": 'devicon-blender-original'         , "nombre": "Blender" },
+//     GIMP:          { "source": 'devicon-gimp-plain'               , "nombre": "Gimp" },
+    
+//     VB:            { "source": 'images/Techs/vb.webp'             , "nombre": "Visual Basic" },
+//     JASPER:        { "source": 'images/Techs/jasper.webp'         , "nombre": "Jasper" },
+//     PHOTON:        { "source": 'images/Techs/photon.webp'         , "nombre": "Photon" },
+//     SOURCETREE:    { "source": 'images/Techs/sourcetree.webp'     , "nombre": "Sourcetree" },
+// ] as const;
+
+

@@ -1,17 +1,9 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
-import { TechIconsComponent, Tecnologia } from '../../shared/tech-icons/tech-icons.component';
 import { TECNOLOGIAS } from '../../../constants/tecnolgias.constants';
-
-interface Trabajo {
-    empresa: string;
-    puestoKey: string;
-    periodoKey: string;
-    descripcionKeys: string[];
-    tecnologias: Tecnologia[];
-    secundario?: boolean;
-}
+import { Trabajo } from '../../../models/trabajo.interface';
+import { TechIconsComponent } from '../../shared/tech-icons/tech-icons.component';
 
 @Component({
     selector: 'app-experiencia',

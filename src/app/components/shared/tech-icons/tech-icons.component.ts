@@ -1,12 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-// Interfaz compartida para las tecnologías
-export interface Tecnologia {
-    icono?: string;
-    imagen?: string;
-    nombre?: string;
-}
+import { Tecnologia } from '../../../models/tecnologias.interface';
 
 @Component({
     selector: 'app-tech-icons',

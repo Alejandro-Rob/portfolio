@@ -2,15 +2,8 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TECNOLOGIAS } from '../../../constants/tecnolgias.constants'
 import { TranslateModule } from '@ngx-translate/core';
-import { TechIconsComponent, Tecnologia } from '../../shared/tech-icons/tech-icons.component';
-
-interface Estudio {
-    titulo: string;
-    centro: string;
-    periodo: string;
-    descripcion: string;
-    tecnologias: Tecnologia[];
-}
+import { TechIconsComponent } from '../../shared/tech-icons/tech-icons.component';
+import { Estudio } from '../../../models/estudios.interface';
 
 @Component({
     selector: 'app-estudios',

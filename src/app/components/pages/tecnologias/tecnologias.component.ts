@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 import { TECNOLOGIAS } from '../../../constants/tecnolgias.constants';
-import { Tecnologia } from '../../shared/tech-icons/tech-icons.component';
+import { Tecnologia } from '../../../models/tecnologias.interface';
 
 @Component({
     selector: 'app-tecnologias',

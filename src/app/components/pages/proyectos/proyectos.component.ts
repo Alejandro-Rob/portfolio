@@ -2,22 +2,8 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TECNOLOGIAS } from '../../../constants/tecnolgias.constants';
 import { TranslateModule } from '@ngx-translate/core';
-import { TechIconsComponent, Tecnologia } from '../../shared/tech-icons/tech-icons.component';
-
-interface Proyecto {
-    nombre: string;
-    descripcion: string;
-    imagen?: string;
-    galeria?: ImagenGaleria[];
-    tecnologias: Tecnologia[];
-    urlGithub?: string;
-    urlDemo?: string;
-}
-
-interface ImagenGaleria {
-    url: string;
-    descripcion?: string;
-}
+import { Proyecto } from '../../../models/proyecto.interface';
+import { TechIconsComponent } from '../../shared/tech-icons/tech-icons.component';
 
 @Component({
     selector: 'app-proyectos',
@@ -44,6 +30,16 @@ export class ProyectosComponent {
                 { icono: TECNOLOGIAS.GIT,         nombre: 'GitHub' }
             ],
             urlDemo: 'https://youtu.be/A7FoMZhybhE'
+        },
+        {
+            nombre: 'proyectos.evilio.nombre',
+            descripcion: 'proyectos.evilio.descripcion',
+            imagen: 'images/Proyectos/evilio.webp',
+            tecnologias: [
+                { icono: TECNOLOGIAS.UNITY,   nombre: 'Unity' },
+                { icono: TECNOLOGIAS.CSHARP,  nombre: 'C#' }
+            ],
+            urlDemo: 'https://youtu.be/YCD1xdQDW-s'
         },
         {
             nombre: 'proyectos.pokeguessr.nombre',

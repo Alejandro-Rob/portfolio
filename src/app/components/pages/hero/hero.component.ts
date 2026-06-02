@@ -13,6 +13,7 @@ import { TranslateModule } from '@ngx-translate/core';
 export class HeroComponent {
     scrollTo(id: string) {
         const elemento = document.getElementById(id);
+        
         if (elemento) {
             elemento.scrollIntoView({ behavior: 'smooth' });
         }
