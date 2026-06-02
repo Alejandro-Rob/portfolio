@@ -107,6 +107,10 @@
             "nombre": "Hoppr",
             "descripcion": "Home task management application for expenses, recipes and shopping lists, installed on a Raspberry PI connected to Github. The app also allows remote connection via Ngrok for temporary use. Currently in development, showing part of its functionality."
         },
+        "evilio": {
+            "nombre": "Evilio el Residente",
+            "descripcion": "A third-person horror and action game inspired by the classic Resident Evil. The player explores environments with fixed cameras, fighting zombies in a laboratory setting."
+        },
         "museo": {
             "nombre": "VR Museum",
             "descripcion": "Interactive VR environment set in a video game museum, where the player can explore and interact with displays of consoles and accessories to obtain information."
